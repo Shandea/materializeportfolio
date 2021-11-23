@@ -1,0 +1,378 @@
+
+body {
+    background-color: #e7e9e1;
+}
+
+/* // Area Around Carousel */
+.carousel-img{
+    height:700px;
+    width:1600px;
+}
+
+
+/* // Mission Statement */
+#about{
+    margin-top:100px;
+    margin-left: 3%;
+    margin-right:3%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color:white;
+    text-align:justify;
+    outline-style:solid;
+    outline-width:1px;
+    box-shadow: 0 0 20px grey;
+}
+
+/* Animal Row 1 Style */
+.animal-row-1 {
+    background-color: white;
+}
+
+/* Button */
+button {
+    background-color: #042b2c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 25%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #042b2c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+
+/* // DEFOREST INFO */
+#deforest-info{
+    margin-top:100px;
+    margin-left: 6%;
+    margin-right:0%;
+    padding:2% 2% 2% 2%;
+    background-color:white;
+    text-align:justify;
+    outline-style:solid;
+    outline-width:1px;
+    box-shadow:0 0 20px black;
+
+}
+
+.deforest-img1{
+    width:500px;
+    height:250px;
+    margin-top:100px;
+    margin-left:35px;
+    box-shadow:5px 0 20px black;
+}
+.deforest-img2{
+    width:500px;
+    height:250px;
+    margin-top:50px;
+    margin-left:35px;
+    box-shadow:5px 0 20px black;
+}
+
+/* // CLIMATE INFO */
+#climate-info{
+    margin-top:100px;
+    margin-left: 0%;
+    margin-right:6%;
+    padding:2% 2% 2% 2%;
+    background-color:white;
+    text-align:justify;
+    outline-style:solid;
+    outline-width:1px;
+    box-shadow:0 0 20px black;
+}
+
+.climate-img1{
+    width:500px;
+    height:250px;
+    margin-top:100px;
+    margin-left:35px;
+    box-shadow:0 5px 20px black;
+}
+.climate-img2{
+    width:500px;
+    height:250px;
+    margin-top:50px;
+    margin-left:35px;
+    box-shadow:0 5px 20px black;
+}
+
+/* // POACHING INFO */
+#poaching-info{
+    margin-top:100px;
+    margin-left: 6%;
+    margin-right:0%;
+    padding:2% 2% 2% 2%;
+    background-color:white;
+    text-align:justify;
+    outline-style:solid;
+    outline-width:1px;
+    box-shadow:0 0 20px black;
+}
+
+.poaching-img1{
+    width:500px;
+    height:250px;
+    margin-top:100px;
+    margin-left:35px;
+    box-shadow:5px 0 20px black;
+
+}
+.poaching-img2{
+    width:500px;
+    height:250px;
+    margin-top:50px;
+    margin-left:35px;
+    box-shadow:5px 0 20px black;
+
+}
+.poaching-img3{
+    width:500px;
+    height:250px;
+    margin-top:50px;
+    margin-left:35px;
+    box-shadow:5px 0 20px black;
+
+}
+
+
+
+
+/* // Subscribe */
+#subscribe{
+    background-color:white;
+  
+    margin-top:100px;
+    margin-left: 20%;
+    margin-right:0%;
+    padding:5%;
+ 
+
+
+}
+/* // Subscribe Button */
+
+#subscribe-btn{
+    background-color:#042b2c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* //  Subscribe Modal */
+#subscribe-modal-content{
+    background-color:#e7e8e0;
+    height:75%;
+    margin-top:4%;
+    padding-right:3%;
+    margin:4% auto 15% auto;
+    border:1px solid #888;
+    width:40%;
+    margin-bottom:10%;
+}
+#subscribe-modal-content{
+    padding:8px 3.5% 13px 47px;
+}
+.subscribeModalHeader{
+    padding:13px 5% 13px 47px;
+}
+#subscribe-btn{
+    background-color:#042b2c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* //Contact */
+#subscribe-modal-content{
+    padding:8px 3.5% 13px 47px;
+}
+.contact-modal-header{
+    padding:13px 5% 13px 47px;
+}
+#send-btn{
+    background-color:#042b2c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* // Contact Us */
+#contact-us{
+    background-color:white;
+   
+    margin-top:100px;
+    margin-left: 0%;
+    margin-right:20%;
+    padding:5%;
+
+
+}
+/* // Contact Us Modal */
+#contact-modal-content{
+    background-color:#e7e8e0;
+    height:98%;
+    margin-top:10%;
+    padding-right:.5%;
+    margin:5% auto 15% auto;
+    border:1px solid #888;
+    width:50%;
+}
+
+
+/* // Footer */
+#footer{
+    margin-top:100px;
+    margin-left: 3%;
+    margin-right:3%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color:white;
+    text-align:justify;
+    outline-style:solid;
+    outline-width:1px;
+    box-shadow: 0 0 20px black;
+}
+
+
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+
+
+/*Graph css*/
+.bar:hover {
+    fill: rgb(41, 39, 39);
+}
+.bar{
+width: 30px;
+}
+/* Xaxis & Yaxis */
+#xAxis, #yAxis{
+font-size: 1.2em;
+}
+/* Title */
+#title{
+text-align: center;
+font-size: 50px;
+}
+/* Svg */
+svg{
+margin-left: 250px;
+}
+/* P tag note */
+#noData{
+text-align: center;
+font-size: 20px;
+margin-top: 50px;
+
+}
+
+/* D3 Graph
+
+/* body of page */
+
+/* line from dot to dot */
+.line-path{
+    fill: none;
+    stroke: blue;
+    stroke-width: 5px;
+}
+/* Xaxis & Yaxis */
+#xAxis, #yAxis{
+    font-size: 1.2em;
+}
+/* Title */
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+/* Svg */
+svg{
+    margin-left: 250px;
+}
+/* P tag note */
+#noData{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;   
+}

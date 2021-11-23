@@ -1,0 +1,18 @@
+body{
+    background-image: url("./images/Capture.music.PNG");
+}
+#drum-machine{
+    margin-top: 15%;
+    font-size: 50px;
+    font-weight: 600;
+    color: hotpink;
+    text-align: center;
+    text-shadow: 3px 0px 0px black;
+}
+.drum-pad{
+    background-color: black;
+    color:hotpink;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+}

@@ -1,0 +1,555 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>TechDuck 2.1</title>
+</head>
+
+<body>
+  <div class="hiddenContent">
+
+    <div class="hiddenNavbar">
+      <div id="myNavbar">
+        <a href="#home">HOME</a>
+        <a href="#mission">MISSION</a>
+        <a href="#createResumeNav">CREATE</a>
+        <a href="#resumeNav">RESUME</a>
+        <a href="#contactNav">CONTACT</a>
+        <button id="faqBtn">?</button>
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1" id="home">
+      <div id="navBar">
+        <a href="#home">HOME</a>
+        <a href="#mission">MISSION</a>
+        <a href="#createResumeNav">CREATE</a>
+        <a href="#resumeNav">RESUME</a>
+        <a href="#contactNav">CONTACT</a>
+        
+      </div>
+
+      <!-- Main homescreen with logo and name -->
+      <div class="homePage" style="white-space:nowrap;">
+        <h1 class="techDuck">TECH DUCK</h1>
+        <span id="resumeCreatorTitle"></span>
+        <img src="Images/TechDuckLarger.png" id="techDuckLogo">
+
+      </div>
+
+    </div>
+
+    <!-- Mission Section -->
+    <div class="missionContent" id="mission">
+        <h3 class="center">OUR MISSION</h3>
+        <p class="mission-statement">Our mission  at <strong>Tech Duck</strong> is to bring a quality and completed job-seeking experience to you. Wherever you are on the tech-job seeking spectrum we want to assist you to success. Our platform is designed to be a resource to help all that are transitioning through the employment sector.
+        <hr />
+        <span id="startText"></span>
+        <button onclick="myFunction()" id="missionBtn">-</button>
+        <span id="moreText">
+        <blockquote class="mission-note">Have you ever stopped on a website to get what you needed done only to find out that, "Aww man, this doesn't have all that I need?" You then have to seek out another site hoping that you'll find what you need. We want Tech Duck to be your one stop shop. Our goal is to provide you with all the tools you need to carve out your personal career path. On this journey we strive to provide you with all the latest resources and trends to ensure employment success. The great thing here at <strong>Tech Duck</strong> is we cater to all fututre tech employees.</blockquote>
+          <blockquote class="mission-note">Do you have any suggestions on how we can be better for you? We embrace the challenge to get and be better. If there's a feature or enhancement you would like to see on our site; leave us a note at the bottom. We appreciate and welcome any and all feedback. Our mission and goal is to provide your experience at <strong>Tech Duck</strong> as one of simplicity, accomplishment and success.</blockquote>
+          <div class="sign">-<strong>Tech Duck</strong></div> </span>
+        </p>
+        
+      <div id="createResumeNav"></div>
+      <br>
+    </div>
+
+    <!-- Second Parallax Image with Resume Creator Text -->
+    <div class="bgimg-2">
+
+      <div class="display">
+        <span class="center wideLetters borderTitle createTitle">CREATE</span>
+        <div id="quoteArea">
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume Creator Section -->
+    <div class="createContent">
+
+      <div id="left-side">
+
+        <form id="form" class="resumeForm">
+
+          <h3><u>Basic Information</u></h3>
+
+          <label>Full Name</label><input id="fullname" class="formfields" type="text"><br>
+          <!-- <label>Last Name</label><input id="lastname" class="formfields" type="text"><br> -->
+          <label>Title</label><input id="title" class="formfields" type="text"><br>
+          <label>City, State</label><input id="citystate" class="formfields" type="text"><br>
+          <label>Phone Number</label><input id="phonenumber" class="formfields" type="text"><br>
+          <label>Email Address</label><input id="email" class="formfields" type="text"><br>
+
+
+
+          <h3><u>Summary</u></h3>
+          <label>Resume Summary</label><br><textarea id="summary"></textarea><br>
+
+
+
+          <h3><u>Skills</u></h3>
+          <h4>Languages</h4>
+          <input id="html5" class="checkbox language" type="checkbox" value="HTML5"><label>HTML5</label>
+          <input id="css3" class="checkbox language" type="checkbox" value="CSS3"><label>CSS3</label>
+          <input id="javascript" class="checkbox language" type="checkbox" value="JavaScript"><label>JavaScript</label>
+          <input id="es6" class="checkbox language" type="checkbox" value="ES6"><label>ES6</label>
+          <br>
+          <h4>Libraries</h4>
+          <input id="jquery" class="checkbox library" type="checkbox" value="Jquery"><label>jQuery</label>
+          <input id="bootstrap" class="checkbox library" type="checkbox" value="Bootstrap"><label>Bootstrap</label>
+          <input id="react" class="checkbox framework" type="checkbox" value="React"><label>React</label>
+          <input id="redux" class="checkbox framework" type="checkbox" value="Redux"><label>Redux</label>
+          <input id="sass" class="checkbox library" type="checkbox" value="SASS"><label>Sass</label>
+          <input id="d3js" class="checkbox library" type="checkbox" value="D3.js"><label>D3.js</label>
+          <br>
+          <h4>Frameworks</h4>
+          <input id="expressjs" class="checkbox framework" type="checkbox" value="Express.js"><label>Express.js</label>
+          <input id="nodejs" class="checkbox framework" type="checkbox" value="Node.js"><label>Node.js</label>
+          <br>
+          <h4>Skills</h4>
+          <input id="oop" class="checkbox skills" type="checkbox" value="OOP"><label>OOP</label>
+          <input id="json" class="checkbox skills" type="checkbox" value="JSON"><label>JSON</label>
+          <input id="datavis" class="checkbox skills" type="checkbox" value="Data Visualization"><label>Data
+            Visualization</label>
+          <input id="agile" class="checkbox skills" type="checkbox" value="Agile"><label>Agile</label>
+          <br>
+          <h4>Additional Skills</h4>
+
+          <div id="addSkills">
+            <div id="skillsSection1">
+              <input id="analytics" class="checkbox skills" type="checkbox"
+                value="Analytics"><label>Analytics</label><br>
+              <input id="collab" class="checkbox skills" type="checkbox"
+                value="Collaboration"><label>Collaboration</label><br>
+              <input id="comm" class="checkbox skills" type="checkbox"
+                value="Communication"><label>Communication</label><br>
+              <input id="confman" class="checkbox skills" type="checkbox" value="Conflict Resolution"><label>Conflict
+                Resolution</label><br>
+              <input id="create" class="checkbox skills" type="checkbox"
+                value="Creativity"><label>Creativity</label><br>
+              <input id="critical" class="checkbox skills" type="checkbox" value="Critical Thinking"><label>Critical
+                Thinking</label><br>
+              <input id="dataman" class="checkbox skills" type="checkbox" value="Database Management"><label>Database
+                Management</label>
+            </div>
+
+            <div id="skillsSection2">
+              <input id="leader" class="checkbox skills" type="checkbox"
+                value="Leadership"><label>Leadership</label><br>
+              <input id="office" class="checkbox skills" type="checkbox" value="Office Suites"><label>Office
+                Suites</label><br>
+              <input id="probsolv" class="checkbox skills" type="checkbox"
+                value="Problem-solving"><label>Problem-Solving</label><br>
+              <input id="proman" class="checkbox skills" type="checkbox" value="Project Management"><label>Project
+                Management</label><br>
+              <input id="strategic" class="checkbox skills" type="checkbox" value="Strategic Thinking"><label>Strategic
+                Thinking</label><br>
+              <input id="timeman" class="checkbox skills" type="checkbox" value="Time Management"><label>Time
+                Management</label><br>
+              <input id="trouble" class="checkbox skills" type="checkbox"
+                value="Troubleshooting"><label>Troubleshooting</label>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <h3><u>Education History</u></h3>
+          <label>School</label><input type="text" class="education" id="school1"><br>
+          <label>Degree</label><input type="text" class="education" id="degree1"><br>
+          <label>Area of Study</label><input type="text" class="education" id="area1"><br>
+          <label>Date of Graduation</label><input type="text" class="education" id="graddate1"><br>
+
+          <!-- <label>School Two</label><input type="text" class="education" id="school2"><br>
+    <label>Degree</label><input type="text" class="education" id="degree2"><br>
+    <label>Area of Study</label><input type="text" class="education" id="area2"><br>
+    <label>Date of Graduation</label><input type="text" class="education" id="graddate2"><br><br>
+
+    <label>School Three</label><input type="text" class="education" id="school3"><br>
+    <label>Degree</label><input type="text" class="education" id="degree3"><br>
+    <label>Area of Study</label><input type="text" class="education" id="area3"><br>
+    <label>Date of Graduation</label><input type="text" class="education" id="graddate3"><br><br> -->
+
+
+          <h3><u>Work History</u></h3>
+
+          <label>Employer</label><input type="text" class="work" id="employer1"><br>
+          <label>Position</label><input type="text" class="work" id="posit1"><br>
+          <label>Dates Employed</label><input type="text" class="work" id="dates1"><br>
+          <label>Job Description</label><br><textarea class="work" id="desc1"></textarea><br><br>
+          <hr>
+          <label>Employer</label><input type="text" class="work" id="employer2"><br>
+          <label>Position</label><input type="text" class="work" id="posit2"><br>
+          <label>Dates Employed</label><input type="text" class="work" id="dates2"><br>
+          <label>Job Description</label><br><textarea class="work" id="desc2"></textarea><br><br>
+          <hr>
+          <label>Employer</label><input type="text" class="work" id="employer3"><br>
+          <label>Position</label><input type="text" class="work" id="posit3"><br>
+          <label>Dates Employed</label><input type="text" class="work" id="dates3"><br>
+          <label>Job Description</label><br><textarea class="work" id="desc3"></textarea><br>
+
+
+          <h3><u>Projects</u></h3>
+
+          <label>Title</label><input type="text" class="project" id="project1"><br>
+          <label>Description</label><br><textarea class="project" id="prodesc1"></textarea><br>
+          <label>Tech Used</label><br><textarea class="project" id="prolink1"></textarea>
+          <hr>
+
+          <label>Title</label><input type="text" class="project" id="project2"><br>
+          <label>Description</label><br><textarea class="project" id="prodesc2"></textarea><br>
+          <label>Tech Used</label><br><textarea class="project" id="prolink2"></textarea>
+
+          <br>
+
+      </div>
+      <!--End of resume form input side-->
+
+      <!-- Info for the resume form field -->
+      <div class="infoArea">Welcome.<br>Now that you have made that next step in creating 'Your' standout resume. Let's get started! We will begin with your general information and complete your resume with personal acheivements. When done, don't forget to hit SUBMIT to format your personal resume.
+        <br>
+        <br>
+      <div class="info-tip">Tip:
+        <br>
+      <div class="info-tip-para">Want to stick out to employers? When your resume includes a personal summary, you're twice as likely to hear back from the hiring manager. Value this space to summarize your progression in a professional capacity and highlight any notable skills and acheivements.</div>
+    </div>
+    </div>
+      <!-- End of info for the resume form field -->
+      <div class="triangle"></div>
+<div class="miniDuckInfo">
+</div>
+
+      <!-- Submit Button for the resume form -->
+      <div class="createContent2">
+        <div class="submitArea">
+          <button type="submit" id="mySubmit" class="submitButton"><span>Submit</span></button>
+          </form><br><br><div id="resumeNav"></div>
+        </div>
+      </div>
+
+
+<!-- FAQ Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="faqTitle">Frequently Asked Questions</p>
+  <!-- Question1 -->
+      <button class="collapsible">Why Tech Duck? &#9662;</button>
+  <div class="content">
+    <!-- Answer1 -->
+    <p>Tech Duck is a reference to the Pragmatic Programmer who would talk to a rubber duck as a method of problem solving.</p>
+  </div>
+  <!-- Question 2 -->
+  <button class="collapsible">Why can’t I see the top of my resume on the Print Preview? &#9662;</button>
+  <div class="content">
+    <!-- Answer 2 -->
+    <p>If the print preview is not starting at the top of your resume:<br>
+      <ul> 
+       <li>click Cancel</li>
+       <li>scroll to the top of your resume in the resume section</li>
+       <li>click Print again</li>
+     </ul>
+       </p>
+    </div>
+    <!-- Question 3 -->
+  <button class="collapsible">What if I have a longer name or address? &#9662;</button>
+  <div class="content">
+    <!-- Answer 3 -->
+    <p>The contact information might overlap into other fields. It is suggested to use abbreviations or shorter names if name exceeds 50 characters.</p>
+    </div>
+    <!-- Question 4 -->
+  <button class="collapsible">Why is there a gap in my resume preview? &#9662;</button>
+  <div class="content">
+    <!-- Answer 4 -->
+    <p>You probably didn’t fill out all necessary fields.  Remember, you must fill out at least one Education, one Work History, and one Project for your resume to appear correctly.</p>
+    </div>
+    <!-- Question 5 -->
+  <button class="collapsible">Why do I see a Header and a Footer on the Print Preview? &#9662;</button>
+  <div class="content">
+    <!-- Answer 5 -->
+    <p>In the print preview screen, ensure that the Header/Footer box is deselected.</p>
+    </div>
+  
+  </div>
+  </div>
+  <!-- End of FAQ Modal -->
+
+    </div>
+     
+   
+    <!-- End of submit button for resume form input side -->
+    
+  </div>
+  <div class="bgimg-3">
+    <span class="center wideLetters borderTitle contactTitle">RESUME</span>
+  </div>
+  <!--right side start- resume-->
+  <div class="resumeContent">
+  <div id="right-side">
+    <div id="personal-info">
+
+      <!-- Name and Title -->
+
+      <div id="name-info">
+        <h1 id="full-name">Full Name</h1> 
+        <!-- <h1 id="last-name">Last Name</h1> -->
+        <h2 id="res-title">Desired Title</h2>
+      </div>
+
+      <!-- Contact Info Section -->
+      <div id="contact-info">
+        <p id="city-state">City, State</p>
+        <p id="phone-number">Telephone</p>
+        <p id="email-addy">Email</p>
+      </div>
+
+    </div>
+    <hr>
+
+    <!-- Resume Summary Section -->
+    <div id="summary-section">
+      <h3 id="res-sum-title">Summary</h3>
+      <p id="res-summary">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Illum provident reprehenderit
+        molestias nisi quibusdam fugit, dolore nulla laboriosam?
+        Cumque autem nobis voluptatem hic aut facere rem,
+        labore, magnam non esse error officiis dolores ipsum
+        atque et quod, qui deleniti ipsa!</p>
+    </div>
+
+    <!-- Skills Section -->
+
+    <div id="skills-section">
+      <h3 id="skills-title">Languages/Libraries/Frameworks</h3>
+      <div id="skills-list">
+
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+        <li>seven</li>
+        <li>eight</li>
+        <li>nine</li>
+
+      </div>
+    </div>
+
+    <div id="other-skills-section">
+      <h3 id="other-skills-title">Skills</h3>
+      <div id="other-skills-list">
+
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+        <li>seven</li>
+        <li>eight</li>
+        <li>nine</li>
+
+      </div>
+    </div>
+
+
+    <!-- School List -->
+    <div id="edu-section">
+      <h3 id="edu-title">Education History</h3>
+      <div class="school1">
+        <p id="school-1">School</p>
+        <p id="degree-1">Degree</p>
+        <p id="area-1">Area of Study</p>
+        <p id="grad-1">Date of Graduation</p>
+      </div>
+      <!-- <p id="school-2">School One</p>
+    <p id="degree-2">Degree</p>
+    <p id="area-2">Area of Study</p>
+    <p id="grad-2">Date of Graduation</p>
+
+    <p id="school-3">School One</p>
+    <p id="degree-3">Degree</p>
+    <p id="area-3">Area of Study</p>
+    <p id="grad-3">Date of Graduation</p> -->
+
+    </div>
+
+    <!-- Work List -->
+    <div id="work-section">
+
+      <h3 id="work-title">Employment History</h3>
+
+      <div class="employer1">
+        <p id="employer-1">Employer Name</p>
+        <em>
+          <p id="posit-1">Position</p>
+        </em>
+        <p id="dates-1">Dates Employed</p>
+        <p id="desc-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Iste maiores vel porro quibusdam recusandae aperiam molestiae
+          tempore nesciunt aspernatur aliquid?</p>
+      </div>
+
+      <div class="employer2">
+        <p id="employer-2">Employer Name</p>
+        <em>
+          <p id="posit-2">Position</p>
+        </em>
+        <p id="dates-2">Dates Employed</p>
+        <p id="desc-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Iste maiores vel porro quibusdam recusandae aperiam molestiae
+          tempore nesciunt aspernatur aliquid?</p>
+      </div>
+
+      <div class="employer3">
+        <p id="employer-3">Employer Name</p>
+        <em>
+          <p id="posit-3">Position</p>
+        </em>
+        <p id="dates-3">Dates Employed</p>
+        <p id="desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Iste maiores vel porro quibusdam recusandae aperiam molestiae
+          tempore nesciunt aspernatur aliquid?</p>
+      </div>
+
+    </div>
+
+    <!-- Projects Section -->
+    <h3 id="projects-title">Projects</h3>
+    <div id="projects-section">
+
+
+      <div id="project1">
+        <p id="project-1">Project Title</p>
+        <p id="prodesc-1">Project Description</p>
+        <p id="prolink-1">Tech Used</p>
+      </div>
+
+      <div id="project2">
+        <p id="project-2">Project Title</p>
+        <p id="prodesc-2">Project Description</p>
+        <p id="prolink-2">Tech Used</p>
+      </div>
+
+    </div>
+
+    
+  </div>
+  <!--End of right side-->
+
+<!-- Start of resume area -->
+<div class="resumeInfoArea">...You're almost done<br>Take a look over 'Your' created resume. View your accomlishments and skills. Is there an highlights you left out? Maybe just thought about? Make sure you detail all relevant talents and abilities to your job prospect. Give them enough bait to bite. Remember, don't forget to hit PRINT. 
+  <br>
+  <br>
+  <div class="resume-tip">Tip:
+    <div class="resume-tip-para">Do you have any gaps with employment? Took some time to go back to school, brush up on your skills? No need to worry! Fill in these gaps with communtiy projects, volunteer sevices or any applicable activities. They all count!
+  
+    </div>
+  </div>
+  </div>
+
+  <div class="triangle2"></div>
+  <div class="miniDuckInfo2"></div>
+<div class="printContent">
+  <div class="hiddenContent2">
+    
+    <!-- Start of print button -->
+    
+      <div class="printArea">
+        
+        <button type="submit" id="myPrint" class="printButton"><span>Print</span></button>
+    </div>
+  </div>
+  </div>
+</div>
+<br>
+<br>
+<div id="contactNav"></div>
+<br>
+<br>
+<br>
+    <!-- End of print button -->
+
+    <!-- Fourth Parallax Image with Contact Text -->
+    <div class="hiddenContent">
+    <div class="bgimg-4">
+      <span class="center wideLetters borderTitle contactTitle">CONTACT</span>
+      <div id="feedbackArea"></div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contactContent" id="contact">
+        <br>
+
+        <div class="contactForm">
+          <form action="#footer">
+            <label for="fname">Name</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+            <label for="country">Country</label><br>
+            <select id="country" name="country">
+  
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+            </select><br>
+  
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+            </textarea><br>
+            <button id="contactSubmit" class="contactBtn"><span>Send</span></button>
+          </form>
+        </div>
+      </div>
+  
+      <!-- End of Contact Area -->
+
+  
+      <div class="bgimg-5">
+        Tech Duck<br>
+          Location: Phoenix, AZ<br>
+          Email: mail@mail.com<br>
+          <br>
+    <!-- Footer -->
+    <footer class="center">
+      <a href="#home" class="topButton">To the top</a>
+    </footer>
+        </div>
+
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <!-- Added print js file -->
+  <script type="text/javascript" src="print.js"></script>
+
+  
+  <script type="text/javascript" src="typewriter.js"></script>
+  <script type="text/javascript" src="missionHide.js"></script>
+  <script type="text/javascript" src="faq.js"></script>
+  <script type="text/javascript" src="quote.js"></script>
+ <script type="text/javascript" src="contactArea.js"></script>
+ <script type="text/javascript" src="navigation.js"></script>
+
+
+</body>
+
+</html>

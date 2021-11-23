@@ -1,0 +1,289 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- import materiailize full CSS -->
+    <link href="./css/materialize.css" rel="stylesheet">
+
+
+    <title>My Portfolio</title>
+
+</head>
+
+<body>
+    <!-- Nav Bar With Name And Links -->
+    <!-- Grid Layout For Nav Bar Section -->
+    <div class="row">
+        <div class="col s12">
+            <!-- Nav Bar Header Section -->
+            <nav id="navBar" class="sectionStyling">
+                <div class="nav-wrapper teal z-depth-5">
+                    <!-- Name Align To Left-->
+                    <a href="#!" class="brand-logo center captionStyle">Shandea Hardin</a>
+                    <!-- Links Set to Right Side -->
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <!-- Collapse On Small Screen Icon -->
+                        <i class="material-icons">&#9776;</i></a>
+                    <!-- Links In Nav Bar Set To Left Side Collapse On Small Screen -->
+                    <ul class="right hide-on-med-and-down">
+                        <!-- Home Link -->
+                        <li><a href="#navBar">Home</a></li>
+                        <!-- About Section Link -->
+                        <li><a href="#aboutSection">About</a></li>
+                        <!-- Contact Section Link -->
+                        <li><a href="#portfolioSection">Portfolio</a></li>
+                        <!-- Event Section Link -->
+                        <li><a href="#contactSection">Contact</a></li>
+                    </ul>
+                    <!-- Collapse Links To 3 Lined Icon On Left Side Turns To A Side Nav With Links For Small Screen -->
+                    <ul class="sidenav" id="mobile-demo">
+                        <li><a href="#navBar">Home</a></li>
+                        <li><a href="#aboutSection">About</a></li>
+                        <li><a href="#portfolioSection">Portfolio</a></li>
+                        <li><a href="#contactSection">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Nav Bar Section -->
+
+    <!-- Back To Top Button Displayed On Bottom Right Side oF Screen-->
+    <div class="fixed-action-btn">
+        <a href="#" class="btn-floating teal btn-large z-depth-3"><i class="large material-icons">
+                Back To Top</i></a>
+    </div>
+    <!-- End Back To Top Button -->
+
+    <!-- Slider Carousel Images With Slogan-->
+    <!-- Grid Layout For Carousel -->
+    <div class="row">
+        <div class="col s12">
+            <!-- Adding Depth To Pop Carousel Off Page -->
+            <div class="slider sectionStyling z-depth-5">
+                <!-- Slides Container -->
+                <ul class="slides">
+                    <!-- First Picture And Slogan In Carousel -->
+                    <li>
+                        <!--1st Image -->
+                        <img src="/images/img7.jpg" alt="">
+                        <!-- Slogan Pop In Center-->
+                        <div class="caption center-align white-text">
+                            <h3 class="captionStyle">"The only way to do great work is to love what you do." ~Steve Jobs
+                            </h3>
+                        </div>
+                    </li>
+                    <!-- Second Image And Slogan In Carousel -->
+                    <li>
+                        <!-- 2nd Image -->
+                        <img src="/images/egor-myznik-fizQrv8m96o-unsplash.jpg" alt="">
+                        <!-- Slogan Pop In Left Side-->
+                        <div class="caption left-align">
+                            <h3 class="captionStyle">"Strive not to be a success, but rather to be of value." ~Albert
+                                Einstein</h3>
+                        </div>
+                    </li>
+                    <!-- Third Image And Slogan In Carousel-->
+                    <li>
+                        <!-- 3rd Image -->
+                        <img src="/images/pexels-karolina-grabowska-4497761.jpg" alt="">
+                        <!-- Slogan Pop In Right Side -->
+                        <div class="caption right-align">
+                            <h3 class="captionStyle">"Whatever the mind of man can conceive and believe, it can
+                                achieve." ~Napoleon Hill</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Carousel Section -->
+
+    <!-- About Section Card -->
+    <!-- Grid Layout For About Section  -->
+    <div class="row">
+        <div class="col s12">
+            <!-- About Me Title -->
+            <h3 id="aboutSection" class="titleStyle center">About Me</h3>
+            <!-- Adding Depth ToAbout Section Card Panel To Make Pop Off Page -->
+            <div class="card-panel sectionStyling teal z-depth-5">
+                <!-- About Me Description -->
+                <span class="white-text">Welcome to my portfolio. I have displayed a few of my solo and team projects
+                    for you to look at.
+                    My interests lay in UX and UI desgin, however I am a Full Stack Web Developer. I greatly enjoy
+                    front-end
+                    design. My talents also extend to photography and drawing as I have an extreme appreciation for all
+                    forms of art. I would love to help you create, design and build your custom website.
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- End Of About Me Section -->
+
+
+    <!-- Parallax 1 For Mentor Section -->
+    <!--Grid Layout For Parallax 1 -->
+    <div class="row">
+        <div class="col s12">
+            <!-- Parallax 1 Container -->
+            <div class="parallax-container sectionStyling z-depth-3">
+                <!-- Parallax 1 Image -->
+                <div class="parallax"><img src="/images/bedroom.jpg"></div>
+            </div>
+        </div>
+
+        <!-- End Parallax 1 For Mentor Section-->
+
+        <!-- Portfolio Section -->
+        <div class="col s12">
+            <!-- Adding Depth To Portfolio Card Panel To Make Pop Off Page -->
+            <div class="card-panel teal center sectionStyling white-text z-depth-5">
+                <!-- Header Section Displaying Title Portfolio -->
+                <div class="collection with-header black">
+                    <h4 id="portfolioSection" class="titleStyle">Portfolio</h4>
+                </div>
+                <div class="row">
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="quoteMachine"
+                                href="projects/Quote Machine/QUOTE MACHINE/index.html"><img class="photoTiles"
+                                    src="/images/quoteMachinePic.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Quote Machine"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="tour" href="projects/AZTOUR4/index.html"><img class="photoTiles"
+                                    src="/images/aztour3pic.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Tombstone"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="houseOfHope" href="projects/Materialize House Of Hope/index.html"><img
+                                    class="photoTiles" src="/images/House of Hope.PNG" style="width:100%"
+                                    onclick="onClick(this)" class="hoverable opacity" alt="House Of Hope"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="tech" href="techDuck MASTER/index.html"><img class="photoTiles"
+                                    src="/images/techDuckPic.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Tech Duck Logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="xtinct" href="xtinct/index.html"><img class="photoTiles"
+                                    src="/images/Xtinctpic.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Xtinct Logo"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="personalLibrary"
+                                href="boilerplate-project-library-gomix-final/views/index.pug"><img class="photoTiles"
+                                    src="/images/Personal Library.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Personal Library"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="exerciseTracker" href="Exercise Tracker/views/index.html"><img
+                                    class="photoTiles" src="/images/Exercise Tracker.PNG" style="width:100%"
+                                    onclick="onClick(this)" class="hoverable opacity" alt="Exercise Tracker"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="productLanding" href="projects/productlanding/index.html"><img
+                                    class="photoTiles" src="/images/productLandingPagePic.PNG" style="width:100%"
+                                    onclick="onClick(this)" class="hoverable opacity" alt="Product Landing Page"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="tributePage" href="projects/tributepage/index.html"><img
+                                    class="photoTiles" src="/images/ismRacewayTributePagePic.PNG" style="width:100%"
+                                    onclick="onClick(this)" class="hoverable opacity" alt="Tribute Page"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="survey" href="projects/survey/index.html"><img class="photoTiles"
+                                    src="/images/surveyPagePic.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Survey Page"></a>
+                        </div>
+                    </div>
+                    <div class="col s3">
+                        <div class="valign-wrapper grey lighten-3 hoverable"
+                            style="padding: 10px;display: inline-block">
+                            <a class="list" id="bio" href="projects/bios/index.html"><img class="photoTiles hoverable"
+                                    src="/images/bioPic.PNG" style="width:100%" onclick="onClick(this)"
+                                    class="hoverable opacity" alt="Bio Page"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio Section -->
+
+        <!--Parallax 2 For Assisstance Section -->
+        <!-- Grid Layout For Assisstance Section  -->
+        <div class="row">
+            <div class="col s12">
+                <!-- Parallax 2 Container  -->
+                <div class="parallax-container sectionStyling z-depth-5">
+                    <!-- Parallax 2 Image -->
+                    <div class="parallax"><img src="/images/workbench.jpg"></div>
+                </div>
+            </div>
+            <!-- End Parallax 2 For Assisstance Section -->
+
+            <!-- Footer Contact Section-->
+            <div class="row">
+                <div class="col s12">
+                    <!-- Adding Depth To Events Section Card Panel To Make Pop Off Page -->
+                    <div class="card-panel teal center white-text z-depth-5">
+                        <!-- Events Header Displaying Events Schedule Title  -->
+                        <div class="collection with-header black">
+                            <h4 id="contactSection" class="titleStyle">Contact Me</h4>
+                        </div>
+
+                        <footer class="page-footer white">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col 16 s12">
+                                        <h5 class="black-text center">Shandea Hardin</h5>
+                                        <p class="black-text center">520-221-1301</p>
+                                        <p class="black-text center">shardin86@@gmail.com</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+        <!-- import jquery -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <!-- import materialize scripts -->
+        <script src="js/materialize.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <!-- import D3.js -->
+        <script type="text/javascript" src="js/d3.js"></script>
+        <script type="text/javascript" src="materialize.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+body{
+    display: grid;
+    margin: 40px 40px 40px 40px;
+    background: url(images/circle-blues.png);
+}
+
+
+
+
+#main-doc{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 20% 75%;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+    grid-gap: 5%;
+    grid-template-areas:
+    "galaxy galaxy"
+    "navbar s10e"
+    "navbar s10"
+    "navbar s10plus"
+    "navbar s105g"
+    "navbar s10lite"
+}
+
+#navbar{
+    grid-area: navbar;
+    background: url(images/hotel-wallpaper.png);
+    padding: 400px 10px 10px 10px;
+    border: solid;
+    border-color: lightseagreen;
+    border-width: 5px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+
+#galaxy{
+    grid-area: galaxy;
+    background: url(images/hotel-wallpaper.png);
+    font-size: 25px;
+    font-style: cursive;
+    text-shadow: 2px 2px lightblue;
+    padding: 40px 0px 0px 150px; 
+    border: solid;
+    border-color: blue;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#logo{
+    padding: 20px 20px 20px 20px;
+}
+
+.phones{
+    font-size: 15px;
+   
+    
+}
+
+#box1{
+    background: url(images/hotel-wallpaper.png);
+    border: solid;
+    border-color: hotpink;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#s10e{
+    grid-area: s10e;
+    font-size: 25px;
+    text-shadow: 2px 2px lightblue;
+    padding: 20px 0px 0px 50px;
+
+    
+}
+
+#pics10{
+    height: 100px;
+}
+
+#one{
+    font-size: 15px;
+}
+
+#two{
+    font-size: 15px;
+}
+
+#box2{
+    background: url(images/hotel-wallpaper.png);
+    border: solid;
+    border-color: turquoise;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#s10{
+    grid-area: s10;
+    font-size: 25px;
+    text-shadow: 2px 2px lightblue;
+    padding: 20px 0px 0px 50px;
+}
+
+#picgalaxy{
+    height:100px;
+}
+
+#three{
+    font-size: 15px;
+}
+
+#four{
+    font-size: 15px;
+}
+
+#box3{
+    background: url(images/hotel-wallpaper.png);
+    border: solid;
+    border-color: rgb(19, 174, 235);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#s10plus{
+    grid-area: s10plus;
+    font-size: 25px;
+    text-shadow: 2px 2px lightblue;
+    padding: 20px 0px 0px 50px;
+}
+
+#pics102{
+    height: 100px;
+}
+
+
+#five{
+    font-size: 15px;
+}
+
+#six{
+    font-size: 15px;
+}
+
+#box4{
+    background: url(images/hotel-wallpaper.png);
+    border: solid;
+    border-color: purple;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#s105g{
+    grid-area: s105g;
+    font-size: 25px;
+    text-shadow: 2px 2px lightblue;
+    padding: 20px 0px 0px 50px;
+}
+
+#pics103{
+    height: 100px;
+}
+
+#seven{
+    font-size: 15px;
+}
+
+#eight{
+    font-size: 15px;
+}
+
+#box5{
+ 
+    background: url(images/hotel-wallpaper.png);
+    border: solid;
+    border-color: hotpink;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#s10lite{
+    grid-area: s10lite;
+    font-size: 25px;
+    text-shadow: 2px 2px lightblue;
+    padding: 20px 0px 0px 50px;
+}
+
+#nine{
+    font-size: 15px;
+}
+
+#ten{
+    font-size: 15px;
+}
+
+@media( max-width:768px) {
+    
+    #main-doc{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 18% 18% 18% 18% 18% 18%;
+        grid-gap: 5%;
+        grid-template-areas:
+        "galaxy galaxy"
+        "navbar s10e"
+        "navbar s10"
+        "navbar s10plus"
+        "navbar s105g"
+        "navbar s10lite"
+    }
+}
+
+
+
+
+
+

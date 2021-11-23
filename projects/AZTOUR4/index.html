@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>AZ TOUR 4</title>
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="borderBlue" id="aztours">
+    <h3 id="azHeader"><strong> Arizona Tours</strong></h3>
+  </header>
+  <!-- nav bar -->
+  <nav class="borderYellow" id="nav">
+    <!-- search bar inside nav bar -->
+    <form id="searchbar">
+      <label for="search">Search
+      </label>
+      <input type="search" id="search" name="search">
+      <!-- submit button for search in nav bar -->
+      <button id="searchBtn" type="submit">Submit
+      </button>
+    </form>
+    <!-- small az image -->
+    <button id="smallAzBtn">
+      <img src="images/AZ1.jpg" class="borderYellow" id="smallerimage1" alt="Arizona cactus background">
+    </button>
+    <!-- Az modal -->
+    <div class="modal" id="modalAz">
+      <!-- modal content -->
+      <div class="modal-content">
+        <!--  Arizona modal header -->
+        <div class="modal-header">Arizona
+          <!-- close modal -->
+          <span onclick="document.getElementById('modalAz').style.display='none'" class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <!-- images in Az modal -->
+              <img class="modalPics" src="images/AZParksMap.jpg" class="modal-img img-responsive"></div>
+            <div class="col">
+              <img class="modalPics" src="images/ArizonaStateSeal.png" class="modal-img img-responsive"></div>
+            <div class="col">
+              <img class="modalPics" src="images/AZ3.jpg" class="modal-img img-responsive"></div>
+          </div>
+          <!-- description in Az modal -->
+          <p id="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+            impedit, quidem possimus atque rem ut ab reprehenderit placeat architecto
+            aliquid autem fugiat iure earum. Aliquam atque maiores ea eaque quisquam?
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- left side Facts section of page  -->
+  <section class="borderBlue" id="left">
+    <strong>Facts</strong>
+    <article class="borderBlue" id="article">
+      <!-- 1st section of article with fact sentences -->
+      <div class="azWelcome">
+        <h1 class="facts" id="fact1">Arizona became the 48th state on February 14, 1912.
+        </h1>
+        <h2 class="facts" id="fact2">The saguaro cactus blossom is the official state flower. The white flower blooms on
+          the
+          tips of the saguaro cactus during May and June. The saguaro is the largest American cactus.
+        </h2>
+        <h3 class="facts" id="fact3">The Palo verde is the official state tree. Its name means green stick and it blooms
+          a
+          brilliant yellow-gold in April or May.
+        </h3>
+      </div>
+      <!-- attractions heading inside article section -->
+      <p class="borderBlue" id="attractions"><strong>Attractions</strong>
+        <!-- list of links to info pages on places -->
+      <ul>
+        <!-- button modal for Tombstone link -->
+        <li id="li1">
+          <button class="linkBtns" id="button1"><strong>Tombstone</strong></button>
+        </li>
+        <!-- modal Tombstone -->
+        <div class="modal" id="modal1">
+          <!-- modal content -->
+          <div class="modal-content">
+            <!-- modal Tombstone header -->
+            <div class="modal-header">Tombstone
+              <!-- close modal -->
+              <span onclick="document.getElementById('modal1').style.display='none'" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <!-- images in Tombstone modal -->
+                  <img class="modalPics" src="images/AZtombstone.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/AZtombstone2.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/AZtombstone3.jpg"></div>
+              </div>
+              <!-- description in Tombstone mdal -->
+              <p id="info">At its peak, Tombstone is said to have been the fastest growing city between St.Louis and
+                San
+                Francisco.There were over
+                one hundered saloons, numerous restaurants, a large red-light district, schools, churches, newspapers,
+                and one of the first public swimming pools (which is still used today).
+                Tombstone's post office was established December 2, 1878 and has yet to be discontinued.The most
+                famous
+                event in Tombstone's history was the famed Gunfight at Ok Corral,
+                which didn't actually happen at the corral, but in a vacant lot on Fremont Street. On October 26,
+                1881,
+                members of the "Cowboys",
+                had a run-in with Wyatt, Virgil and Morgan Earp with help from Wyatt's friend Doc Holliday. 24seconds
+                and 30 shots later, Billy Clanton, Tom and Frank McLaury were mortally wounded.
+                In many people's opinion it was this one event that has kept Tombstone alive for all these years.There
+                was actually five Earps. They were Virgil, Morgan, Wyatt, Warren and James.
+                There were two newspapers on Tombstone, The Tombstone Epitaph edited by Jonh Clum and The Tombstone
+                Daily Nugget founded by H.M Woods in 1880. The Epitaph took a Republican view on events
+                in town while The Nugget was supported by the Democrats. There was an ice-cream parlour that was very
+                popular with the locals, including Wyatt Earp. There was a few theaters in town, the
+                most famouos of them being Schieffelin Hall and The Bird Cage Theater. Sirens were used in Tombstone
+                to
+                mark the begining of a new shift for the miners. After the gunfight on October 26, 1881, sirens
+                went off from the Vizna mine and miners poured up onto the street, armed and ready. Saloons were open
+                24
+                hours a day in Tombstone. This included The Oriental, The Crystal Place Saloon, The Eagle Saloon
+                and The Alhambra. Saloons could be quite decadent and served Whiskey and Brandy, a six-year-old
+                Kentucky
+                Apple Brandy, Gin Rum, Sherry, Port, English Ale, Scotch, Millers Extra and 26 different imported
+                wines. The Oriental bragged at having piano and violin concerts every night and was llit with
+                chandeliers. Restaurants in Tombstone such as The Can Can,The Russ House, The Elite House ant The
+                Malson
+                Doree,
+                catered to all tastes including fine dining. Fresh shrimp and oysters were brought in from California
+                to
+                Tucson in registered train cars, then transported down to Tombstone.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- button modal for Grand Canyon link -->
+        <li id="li2">
+          <button class="linkBtns" id="button2"><strong>Grand Canyon</strong></button>
+        </li>
+        <!-- modal Grand Canyon -->
+        <div class="modal" id="modal2">
+          <!-- modal content -->
+          <div class="modal-content">
+            <!-- modal Grand Canyon header -->
+            <div class="modal-header">Grand Canyon
+              <!-- close modal -->
+              <span onclick="document.getElementById('modal2').style.display='none'" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <!-- images in Grand Canyon modal -->
+                  <img class="modalPics" src="images/Grand Canyon 1.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/Grand Canyon 2.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/Grand Canyon 3.jpg"></div>
+              </div>
+              <!-- description in Grand Canyon modal -->
+              <p id="info">Arizona is home of the Grand Canyon National Park. The state's most popular natural wonders
+                include the Grand Canyon, Havasu Canyon, Grand Canyon Caves, Lake Powell/Rainbow Bridge, Petrified
+                Forest/Painted Desert,
+                Monument Valley, Sunset Crater, Meteor Crater, Sedona Oak Creek Canyon, Salt River Canyon, Suprerstion
+                Mountains, Picacho Peak
+                State Park, Chiricahua National Monument, and the Colorado River. Grand Cnayon's Flaming Gorge got its
+                name for its blazing
+                red and orange colored, twelve-hundred-foot-high walls. Grand Canyon's Disater Falls named to
+                commemorate the site of a previous
+                explorer's wreck. Grand Canyon's Marble Canyon got its name from its thousand-foot-thick seam of
+                marble
+                and for its walls eroded to a
+                polished glass finish.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- button modal for Colossal link -->
+        <li id="li3">
+          <button class="linkBtns" id="button3"><strong>Colossal Caves</strong></button>
+        </li>
+        <!-- modal Colossal Cave -->
+        <div class="modal" id="modal3">
+          <!-- modal content -->
+          <div class="modal-content">
+            <!-- modal Colossal Caves header -->
+            <div class="modal-header">Colossal Caves
+              <!-- close modal -->
+              <span onclick="document.getElementById('modal3').style.display='none'" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <!-- images in Colossal cave modal -->
+                  <img class="modalPics" src="images/ColossalCave1.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/ColossalCave2.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/ColossalCave3.jpg"></div>
+              </div>
+              <!-- description in Colossal Cave modal -->
+              <p id="info">Beautiful 2,400 acre desert park, on the National Register of Historic Places, showcasing
+                the
+                crystal-filled Colossal Cave and historic La Posta Quemada Ranch,
+                cave tours, mueseum, western trail rides and wooded picnic areas and spectacular cowboy cookouts under
+                the stars. Bonecrusher and Fang and the names of some of the largest
+                stalactites in Colossal Caves in Vail, Arizona. The cave was formed during the Mississippian Period,
+                over 320 million years ago, when water seeped through the rocks and
+                and dissolved away part of the limestone, leaving behind the third largest cave in the world. Colossal
+                Cave is one of the 5% of the dry/dormat caves in the world, meaning
+                that it is still alive but no longer growing. This also means it is one of the rare caves pictures can
+                be taken in.The cave isn't the only thing that this park holds for visitors,
+                though. A few minutes down the road, 120-year-old La Posta Quemada Ranch, site of an old stagecoach
+                station, hostess the Ranch Headquarters House, which is home for the mueseum,
+                research library, another beautiful gift shop, and open-air cafe serving Mexican food. Here you can
+                sit
+                in the natural habitat butterfly garden and watch butterflies whiz around
+                your head and observe tortise as they wonder about their stone enclosure. There is a riding stable
+                where
+                trail rides are available and the Analemmatic Sundial where you can be the
+                shadow that tells the time. Special reservations can be made for cattle drives, cowboy cookouts and
+                kids' birthday parties. If you like to camp, there are secluded campsites near Posta Quemada
+                Wash. While there you can hike on the 2,577 acres the Park covers and spot many animals, such as a
+                ringtail, a coatimundi, javelina and striped skunk. Colossal Cave Mountain Park offers a
+                variety of activities for all interest, whether you want a day-outting or rough it on a camping trip.
+                No
+                reservation is required for a guided cave tour, and the maximum wait is 30 minutes.
+                There is no food, drink or gum allowed in the cave, but bottled water is permitted. Reservations are
+                suggested for trail rides.</p>
+            </div>
+          </div>
+        </div>
+        <!-- button modal for Kartchner link -->
+        <li id="li4">
+          <button class="linkBtns" id="button4"><strong>Kartchner Caverns</strong></button>
+        </li>
+        <!-- modal  Kartchner Caverns-->
+        <div class="modal" id="modal4">
+          <!-- modal content -->
+          <div class="modal-content">
+            <!-- modal Kartchner Caverns header -->
+            <div class="modal-header">Kartchner Caverns
+              <!-- close modal -->
+              <span onclick="document.getElementById('modal4').style.display='none'" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <!-- images in Kartchner Caverns modal -->
+                  <img class="modalPics" src="images/KartchnerCaverns1.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/KartchnerCaverns2.jpg"></div>
+              </div>
+              <!-- description in Kartchner Caverns modal -->
+              <p id="info">The Caverns are located in Whetsone Mountains near Benson, Az which is 46.7 miles east
+                of Tucson.
+                The natural wonder is a must-see for anyone who wants a truly unique experience. The formations,
+                flora,
+                fauna,
+                and geology of Kartchner Caverns are all extremely fascinating. The Caverns were discovered in 1984 by
+                Gary Tenen and Randy Tutfs.
+                However, the public didn't learn about the Caverns until 1988 when Gary and Randy told the owners
+                James
+                and Lois
+                Kartchner. Kartchner Caverns
+                are home of the world's largest Stalactites. These are known as soda straw stalactites averaging
+                twenty-one feet three inches long.
+                It's also home to the most massive and tallest column in Arizona. It's called the Kubla Khan and is 58
+                feet tall.Guided tours only. You usually have to have reservations: (520) 586-2283. You have to pick
+                up
+                your tickets at least an hour prior to your tour or they become open for grabs.This is an informative
+                tour of a
+                living cave. The visitors center is one of the best. Excellent exhibits.There are several tours you
+                can enjoy.
+                The Rotunda/Throne tour, Helmet Tour, Headlamp Tour and The Big Room Tour. The Big Room Tour is only
+                open October - April.
+                From April on, it is left to accommodate the myotis bats which fly in to use it as a nursery. Children
+                under 7 are not
+                allowed on the Big Room Tour.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- button modal for Chiricahua National Monument link -->
+        <li id="li5">
+          <button class="linkBtns" id="button5"><strong>Chiricahua National Monument</strong></button>
+        </li>
+        <!-- modal  Chiricahua National Monument-->
+        <div class="modal" id="modal5">
+          <!-- modal content -->
+          <div class="modal-content">
+            <!-- modal Chirichahua Header -->
+            <div class="modal-header">Chiricahua National Monument
+              <!-- close  modal -->
+              <span onclick="document.getElementById('modal5').style.display='none'" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <!-- images in Chiricahua National Monument modal -->
+                  <img class="modalPics" src="images/Chiricahua2.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/Chiricahua3.jpg"></div>
+                <div class="col">
+                  <img class="modalPics" src="images/Chiricahua4.jpg"></div>
+              </div>
+              <!-- description in Chiricahua National Monument modal -->
+              <p id="info">Chiricahua National Monument was discovered in 1924 and became a National registered
+                Historic
+                place in 2008.
+                The Monument is located just southeast of Wilcox, Arizona. Before it became a national monument, the
+                Chiricahua Apache Indians
+                called the Chiricahua Mountains home. If you enjoy hiking then you'll be in heaven here. You can
+                download a free hiking guide
+                on the National Park Service website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </ul>
+      </p>
+    </article>
+  </section>
+  <!-- right side subscription section -->
+  <aside class="borderBlue" id="right">
+    <!-- Sign up heading statement -->
+    <p id="signUp">Sign up for our monthly newsletter.</p>
+    <!-- center image in subscription section -->
+    <img class="borderBlue" id="largerimage" src="images/AZPaloVerde1.jpg">
+    <!-- break between image and sign up form -->
+    <br>
+    </br>
+    <!-- sign up form -->
+    <form action="/submit-newsletter">
+      <input id="firstName" class="formBox" type="text" placeholder="First Name">
+      <input id="lastName" class="formBox" type="text" placeholder="Last Name">
+      <input id="email" class="formBox" type="text" placeholder="Email">
+      <!-- break between sign up form and submit button -->
+      <br>
+      <!-- submit form button  -->
+      <button id="submitBtn" class="formBox" type="submit">Submit
+      </button>
+    </form>
+  </aside>
+  <!-- footer -->
+  <footer class="borderYellow" id="footer">Created by Shandea Hardin
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <!-- import bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!-- import D3.js -->
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

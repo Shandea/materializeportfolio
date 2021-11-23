@@ -1,0 +1,1222 @@
+body {
+    font-family: liberation serif;
+    text-align: justify;
+    background-color: #e7e9e1;
+    overflow-x: hidden;
+    color: #454148;
+}
+
+/* HEADER/NAVBAR */
+
+/* NAV LINKS */
+#navigation {
+    font-weight: 700;
+    font-size:22px;
+    box-shadow:0 0 20px #454148;
+}
+
+.navbar a:hover {
+    color: rgb(147, 150, 69);
+}
+
+#navbar-logo-words {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#navbar-logo-globe {
+    width: 100px;
+    margin-top: -330px;
+    margin-left: 210px;
+}
+
+#quote {
+    font-weight: 800;
+    font-size: 33px;
+    font-family: ink free;
+    word-spacing: 10px;
+    margin-left: 300px;
+}
+
+/* CAROUSEL */
+
+.carousel-inner {
+    padding-left: 250px;
+}
+
+.carousel-img {
+    width: 1000px;
+    height: 500px;
+}
+
+#car-row {
+    border: 1px solid grey;
+    margin: 10px 20px 0px 20px;
+    padding: 20px 0px 20px 0px;
+    background-image: linear-gradient(to bottom right, rgba(202, 209, 202, 0.664), rgb(204, 209, 187), rgba(240, 240, 162, 0.712), rgba(202, 209, 202, 0.664), rgb(204, 209, 187), rgba(240, 240, 162, 0.712));
+}
+
+/* MISSION STATEMENT */
+
+#about-us {
+    margin: 3% 2% 2% 2%;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    padding: 1%;
+}
+
+/* ANIMAL PROFILES */
+
+.info-card button {
+    background-color: rgba(108, 109, 71, 0.534);
+}
+
+.card-img {
+    border: 2px solid darkcyan;
+}
+
+/* PROFILE MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-body {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left:400px;
+    border: 1px solid #888;
+    width:50%;
+    font-size: 20px;
+}
+
+.profile-modal-header {
+    padding: 2px 20px;
+    background-color: #577284;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: 3px 2px rgb(97, 171, 231);
+    height: 45px;
+}
+
+#animal-name {
+    font-size: 40px;
+}
+
+#animal-image {
+    width: 100%;
+}
+
+#status-img {
+    margin-left: 130px;
+}
+
+#graph {
+    box-shadow: 0 0 20px grey;
+    background-color: rgba(108, 109, 71, 0.308);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.line-path {
+    fill: none;
+    stroke: #618685;
+    stroke-width: 1px;
+}
+
+/* CLOSE BTN FOR MODALS */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+#intro {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* DEFOREST */
+#deforest-title {
+    font-size: 25px;
+}
+
+#deforest-row {
+    margin-left: 30px;
+}
+
+#deforest-info {
+    margin-top: 100px;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 0 20px #454148;
+}
+
+#deforest-img1 {
+    margin-top: 100px;
+    box-shadow: 5px 0 20px #454148;
+    float: right;
+    margin-right: 40px;
+}
+
+#deforest-img2 {
+    margin-top: 30px;
+    box-shadow: 5px 0 20px #454148;
+    float: right;
+    margin-right: 40px;
+}
+
+/* CLIMATE */
+
+#climate-row {
+    margin-right: 30px;
+}
+
+#climate-info {
+    margin-top: 100px;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 0 20px #454148;
+}
+
+#climate-title {
+    font-size: 25px;
+    float: right;
+}
+
+#climate-img1 {
+    margin-top: 150px;
+    margin-left: 40px;
+    box-shadow: 5px 0 20px #454148;
+    float: left;
+}
+
+#climate-img2 {
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+    box-shadow: 5px 0 20px #454148;
+}
+
+/* POACHING */
+
+#poaching-row {
+    margin-left: 30px;
+}
+
+#poaching-info {
+    margin-top: 100px;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 0 20px #454148;
+}
+
+#poaching-title {
+    font-size: 25px;
+}
+
+#poaching-img1 {
+    margin-top: 100px;
+    box-shadow: 5px 0 20px #454148;
+    float: right;
+    margin-right: 40px;
+}
+
+#poaching-img2 {
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    box-shadow: 5px 0 20px #454148;
+}
+
+#poaching-img3 {
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    box-shadow: 5px 0 20px #454148;
+}
+
+/* SUBSCRIBE AND CONTACT */
+
+#sub-con-row {
+    width: auto;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    background-color: #264E36;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* SUBSCRIBE */
+
+#subscribe {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 5%;
+    padding: 5%;
+    box-shadow: 0 0 5px #454148;
+}
+
+#envelope-icon {
+    width: 50px;
+    float: right;
+}
+
+/* SUBSCRIBE MODAL */
+
+#subscribe-modal-content {
+    background-color: #e7e9e1;
+    width: 40%;
+    height: 70%;
+    margin-left: 500px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sub-logo-words {
+    width: 150px;
+    margin-left: 200px;
+    padding-top: 25px;
+}
+
+#sub-logo-globe {
+    width: 7%;
+    margin-top: -170px;
+    margin-left: 268px;
+}
+
+/* CLOSE BTN FOR SUB/CONTACT MODAL */
+
+.sub-con-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: grey;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.sub-con-close:hover,
+.sub-con-close:focus {
+    color:red;
+    cursor: pointer;
+}
+
+.sub-send-btn {
+    margin-top: 40px;
+}
+
+/* CONTACT US */
+
+#contact-us {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 5%;
+    padding: 5%;
+    box-shadow: 0 0 5px #454148;
+}
+
+#info-icon {
+    width: 50px;
+    float: right;
+}
+
+/* CONTACT US MODAL */
+
+#contact-modal-content {
+    background-color: #e7e9e1;
+    margin-left: 500px;
+    width: 40%;
+    height: 75%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#con-logo-words {
+    width: 150px;
+    margin-left: 200px;
+    padding-top: 25px;
+}
+
+#con-logo-globe {
+    width: 7%;
+    margin-top: -170px;
+    margin-left: 268px;
+}
+
+.con-send-button {
+    margin-top: 50px;
+}
+
+/* FOOTER */
+
+#footer-row {
+    margin: 40px 3% 2% 3%;
+    background-color: white;
+    box-shadow: 0 0 5px #454148;
+    line-height: 5;
+    height: 79px;
+}
+
+#footer-logo-words {
+    width: 100px;
+    margin-left: 950px;
+}
+
+#footer-logo-globe {
+    width: 25px;
+    margin-left: -60px;
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPad */
+@media screen and (max-width: 770px) {
+
+/* HEADER/NAVBAR */
+
+/* NAV LINKS */
+#navigation {
+    font-weight: 400;
+    font-size:17px;
+}
+
+#navbar-logo-words {
+    width: 130px;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+#navbar-logo-globe {
+    width: 40px;
+    margin-top: -160px;
+    margin-left:55px;
+}
+
+#quote {
+    display: none;
+}
+#about-link {
+    display: none;
+}
+#top10-link {
+    display: none;
+}
+
+/* CAROUSEL */
+
+.carousel-inner {
+    padding-left: 140px;
+}
+
+.carousel-img {
+    width: 1300px;
+    height: 200px;
+}
+
+#car-row {
+    margin: 2px 10px 0px 10px;
+    padding: 20px 140px 20px 0px;
+}
+
+/* MISSION STATEMENT */
+
+#about-us {
+    /* margin: 2% 1% 1% 1%; */
+    padding: 0px;
+}
+
+/* PROFILE MODAL */
+
+.card-img {
+    width: 85px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.info-card button {
+    padding: 9px;
+}
+
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+} */
+
+.modal-body {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.modal-content {
+    margin-left:155px;
+    width:60%;
+    font-size: 20px;
+}
+
+/* .profile-modal-header {
+    padding: 2px 20px;
+    background-color: #618685;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: 3px 2px rgb(97, 171, 231);
+    height: 45px;
+} */
+
+/* #animal-name {
+    font-size: 40px;
+}
+
+#animal-image {
+    width: 100%;
+} */
+
+#status-img {
+    margin-left: -20px;
+}
+
+/* #graph {
+    box-shadow: 0 0 20px grey;
+    background-color: rgba(108, 109, 71, 0.308);
+    margin-top: 20px;
+    margin-bottom: 10px;
+} */
+
+/* .line-path {
+    fill: none;
+    stroke: #618685;
+    stroke-width: 1px;
+} */
+
+
+#intro {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+/* DEFOREST */
+
+#deforest-row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#deforest-info {
+    margin-top: 50px;
+}
+
+#deforest-img1 {
+    float: left;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+#deforest-img2 {
+    float: right;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+/* CLIMATE */
+
+#climate-img1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+#climate-img2 {
+    float: right;
+    margin-top: -220px;
+}
+#climate-row {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#climate-info {
+    margin-top: 50px;
+}
+
+
+/* POACHING */
+
+#poaching-row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#poaching-info {
+    margin-top: 50px;
+}
+
+#poaching-img1 {
+    float: right;
+    margin-top: 160px;
+}
+
+/* #poaching-img2 {
+    margin-top: 30px;
+    box-shadow: 5px 0 20px #454148;
+} */
+
+/* #poaching-img3 {
+    margin-top: 30px;
+    box-shadow: 5px 0 20px #454148;
+} */
+
+/* SUBSCRIBE AND CONTACT */
+
+#sub-con-row {
+    width: auto;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    background-color: #042b2c;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* SUBSCRIBE */
+
+#subscribe {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+#subscribe-title {
+    font-size: 25px;
+}
+
+#envelope-icon {
+    width:35px;
+    float:right;
+    margin-top:-5px;
+}
+
+/* SUBSCRIBE MODAL */
+
+#subscribe-modal-content {
+    width: 50%;
+    height: 40%;
+    margin-left: 200px;
+}
+
+#sub-logo-words {
+    width: 100px;
+    margin-left: 120px;
+}
+
+#sub-logo-globe {
+    width: 7%;
+    margin-top: -130px;
+    margin-left: 170px;
+}
+
+/* CLOSE BTN FOR SUB/CONTACT MODAL */
+/* .sub-con-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: grey;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.sub-con-close:hover,
+.sub-con-close:focus {
+    color:red;
+    cursor: pointer;
+}
+
+.sub-send-btn {
+    margin-top: 40px;
+} */
+
+/* CONTACT US */
+
+#contact-us {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+#contact-title {
+    font-size: 25px;
+}
+
+#info-icon {
+    width:35px;
+    float:right;
+    margin-top:-5px;
+}
+
+/* CONTACT US MODAL */
+
+#contact-modal-content {
+    width: 50%;
+    height: 60%;
+    margin-left: 200px;
+}
+
+#con-logo-words {
+    width: 100px;
+    margin-left: 120px;
+}
+
+#con-logo-globe {
+    width: 7%;
+    margin-top: -130px;
+    margin-left: 170px;
+}
+
+/* .con-send-button {
+    margin-top: 50px;
+} */
+
+/* FOOTER */
+#footer-row {
+    margin: 0px 2% 2% 2%;
+    line-height: 5;
+    height: 70px;
+}
+
+.foot-twitter {
+    width: 20px;
+    padding-left:10px
+
+}
+
+.foot-face {
+    width: 20px;
+    padding-left:10px
+}
+
+.foot-google {
+    width: 20px;
+    padding-left:10px
+}
+
+#footer-logo-words {
+    width: 70px;
+    margin-left: 270px;
+}
+
+#footer-logo-globe {
+    width: 19px;
+    margin-left: -43px;
+    margin-top: -22px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPhone X */
+@media screen and (max-width: 380px) {
+/* HEADER/NAVBAR */
+
+/* NAV LINKS */
+.nav-link {
+    padding: 0px;
+    margin-left: 10px;
+}
+
+#navigation {
+    font-size:10px;
+}
+
+#navbar-logo-words {
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+#navbar-logo-globe {
+    width: 18px; 
+    float: left;
+   margin: -64px 800px 0px 32px;
+  
+}
+
+#quote {
+    display: none;
+}
+#about-link {
+    display: none;
+}
+#top10-link {
+    display: none;
+}
+
+/* CAROUSEL */
+
+.carousel-inner {
+    padding-left: 60px;
+}
+
+.carousel-img {
+    width: 200px;
+    height: 130px;
+}
+
+#car-row {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* MISSION STATEMENT */
+
+#about-us {
+    margin:5px 0px;
+    font-size: 10px;
+}
+
+.animal-button {
+    width: 100px;
+}
+.card-img {
+    width: 82px;
+    height: 82px;
+ 
+}
+.card-body {
+    padding: 10px 0px 0px 0px;
+}
+.col {
+    padding: 0px;
+}
+#panda-btn {
+    margin-left: 14px;
+}
+#tiger-btn {
+    margin-left: 14px;
+}
+#elephant-btn {
+    margin-left: 13px;
+}
+#rhino-btn {
+    margin-left: 75px;
+}
+#leopard-btn {
+    margin-left: 15px;
+}
+#red-btn {
+    margin-left: 14px;
+}
+#polar-btn {
+    margin-left: 14px;
+}
+#peng-btn {
+    margin-left: 13px;
+}
+#orang-btn {
+    margin-left: 75px;
+}
+#gorilla-btn {
+    margin-left: 15px;
+}
+/* PROFILE MODAL */
+
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+} */
+
+.modal-body {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.modal-content {
+    margin-left:30px;
+    width:80%;
+    font-size: 12px;
+}
+
+.profile-modal-header {
+    padding: 2px 20px;
+    background-color: #618685;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: 3px 2px rgb(97, 171, 231);
+    height: 35px;
+}
+
+#animal-name {
+    font-size: 30px;
+}
+
+#animal-image {
+    width: 90%;
+    margin-left: 12px;
+}
+
+#status-img {
+    margin-left: 40px;
+    width:200px;
+}
+
+#graph {
+    box-shadow: 0 0 20px grey;
+    background-color: rgba(108, 109, 71, 0.308);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.line-path {
+    fill: none;
+    stroke: #618685;
+    stroke-width: 1px;
+}
+
+#intro {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+/* DEFOREST */
+
+#deforest-row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#deforest-info {
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+#deforest-img1 {
+    width: 80%;
+    margin: 30px 30px 20px 30px;
+   
+    float: none;
+}
+
+#deforest-img2 {
+    width: 80%;
+    margin: 0px 30px 30px 30px;
+      float: none;
+
+}
+
+/* CLIMATE */
+
+#climate-row {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#climate-info {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+#climate-img1 {
+    width: 80%;
+   margin: 30px 30px 20px 30px;
+}
+
+#climate-img2 {
+    width: 80%;
+   margin: 0px 30px 20px 30px;
+}
+
+/* POACHING */
+
+#poaching-row {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#poaching-info {
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+#poaching-img1 {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#poaching-img2 {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#poaching-img3 {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+/* SUBSCRIBE AND CONTACT */
+
+#sub-con-row {
+    width: 100%;
+}
+
+.sub-btn, .sub-send-btn, .contact-btn, .con-send-button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    background-color: #042b2c;
+}
+
+/* SUBSCRIBE */
+
+#subscribe {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#subscribe-title {
+    font-size: 20px;
+}
+
+#envelope-icon {
+    width:35px;
+    float:right;
+    margin-top:-5px;
+}
+
+/* SUBSCRIBE MODAL */
+
+#subscribe-modal-content {
+    width: 70%;
+    height: 40%;
+    margin-left: 60px;
+}
+
+#sub-logo-words {
+    width: 60px;
+    margin-left: 75px;
+}
+
+#sub-logo-globe {
+    width: 7%;
+    margin-top: -80px;
+    margin-left: 103px;
+}
+
+/* CLOSE BTN FOR SUB/CONTACT MODAL */
+/* .sub-con-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: grey;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.sub-con-close:hover,
+.sub-con-close:focus {
+    color:red;
+    cursor: pointer;
+}
+
+.sub-send-btn {
+    margin-top: 40px;
+} */
+
+/* CONTACT US */
+
+#contact-us {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#contact-title {
+    font-size: 20px;
+}
+
+#info-icon {
+    width: 30px;
+    float:right;
+    margin-top:5px;
+}
+
+/* CONTACT US MODAL */
+
+#contact-modal-content {
+    width: 70%;
+    height: 60%;
+    margin-left: 60px;
+}
+
+#con-logo-words {
+    width: 60px;
+    margin-left: 75px;
+}
+
+#con-logo-globe {
+    width: 7%;
+    margin-top: -80px;
+    margin-left: 103px;
+}
+
+/* FOOTER */
+
+#footer-row {
+    margin: 20px 2% 2% 2%;
+    line-height: 4;
+    height: 40px;
+    font-size: 10px;
+}
+
+.foot-twitter {
+    width: 20px;
+    padding-left:10px
+
+}
+
+.foot-face {
+    width: 20px;
+    padding-left:10px
+}
+
+.foot-google {
+    width: 20px;
+    padding-left:10px
+}
+
+#footer-logo-words {
+    width: 45px;
+    margin-left:40px;
+
+}
+
+#footer-logo-globe {
+    width: 15px;
+    margin-left: 277px;
+    margin-top:-90px;
+}
+
+
+
+
+}

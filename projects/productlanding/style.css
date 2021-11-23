@@ -1,0 +1,224 @@
+body{
+    background-color:lightseagreen;
+}
+
+#header{
+    background-color: blue;
+    margin: 20px 40px 20px 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+#logo{
+
+    margin-left: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    
+   
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+#smallerimage1{
+    height: 100px;
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+
+#smallerimage1:hover{
+    transform: scale(1.1);
+}
+
+
+#smallerimage2{
+    height: 100px;
+    margin-left: 13.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#smallerimage2:hover{
+    transform: scale(1.1);
+}
+
+#smallerimage3{
+    height: 100px;
+    width: 140px;
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#smallerimage3:hover{
+    transform: scale(1.1);
+}
+
+
+#signUp{
+    margin: 40px 30px 30px 200px;
+}
+
+#smallerimage4{
+    margin: 10px 30px 10px 246px;
+}
+
+#smallerimage4:hover{
+    transform: scale(1.1);
+}
+
+#email{
+    margin: 10px 30px 10px 235px;
+}
+
+#button:hover{
+    transform: scale(1.1);
+    color:blue;
+    
+}
+
+#series{
+    margin: 40px 30px 30px 172px;
+    font-size: 25px;
+
+}
+ 
+#box-container{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    margin: 20px 40px 20px 40px;
+
+   
+
+} 
+
+#box1{
+    
+    background-color: pink;
+    width: 50%;
+    height: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px; 
+    box-shadow: 5px 5px 5px 0px;
+    
+}
+
+#box2{
+     
+    background-color: cornflowerblue;
+    width: 50%;
+    height: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px; 
+    box-shadow: 5px 5px 5px 0px;
+}
+
+@media( max-width:768px) {
+ 
+    #header{
+        margin: 5% 10% 10% 10%;
+
+ }
+    
+    #logo{
+        margin: 10px 10px 10px 230px;
+    }
+
+
+    #smallerimage3{
+        margin: 10px 10px 10px 260px;
+    }
+
+    #signup{
+        margin: 10px 10px 10px 20px;
+    }
+
+    #smallerimage4{
+        margin: 10px 30px 10px 40px;
+    }
+
+    #email{
+        margin: 10px 30px 10px 35px;
+    }
+    
+    #series{
+        margin: 40px 30px 30px 72px;
+       
+    }
+}
+
+@media( max-width:320px){
+    #header{
+        margin: 5px 0px 0px 0px;
+        box-shadow: 5px 5px 5px 0px;
+}
+
+    #logo{
+        margin: 2px 10px 2px 40px; 
+}
+
+    #smallerimage1{
+        padding: 2px 1px 2px 1px;
+}
+
+    #smallerimage2{
+        padding: 2px 1px 2px 1px;
+}
+
+    #smallerimage3{
+        margin: 1px 10px 5px 70px; 
+        padding: 2px 1px 2px 1px;
+}
+
+    #box-container{
+        margin: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+    #box1{
+        width: 283px;
+        
+}
+
+    #signup{
+        margin: 5px 5px 5px 35px;
+}
+
+    #smallerimage4{
+        margin: 5px 5px 0px 22px;
+}
+
+    #email{
+        margin: 5px 5px 0px 20px;
+} 
+
+    #box2{
+        width: 283px;
+}
+    #series{
+        margin: 5px 5px 5px 5px;
+   
+}
+
+    #smallerimage4{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    
+    <h1 id="title">Complete Survey For Arizona Tours</h1>
+
+    <p id="description">Please complete this survey for a chance to win an Arizona Tour.<br>
+        You can choose a one day tour of one of our destination sites. Our weekend package includes Tombstone and Chiricahua National Park.<br>
+        Our one week package includes Tombstone, Chiricahua National Park, Kartchner Caverns and Colossal Caves.<br>
+        Or our month long tour takes you all over Arizona seeing all National Parks, main atractions in all major towns and cities<br>
+        as well as enjoying downtime on luxury Arizona golf courses.
+
+    </p>
+
+
+    <form id="survey-form">
+        <label for="name"><input type="name" required placeholder="Name" id="name-label">
+        </label>
+
+        <label for="email"><input type="email" required placeholder="Email" id="email-label">
+        </label>
+
+        <label for="familySize">Family Size<input type="number" required placeholder="#" min="1" max="10" id="number-label">
+        </label>
+        
+      
+
+
+        <select id="dropdown">
+            <option>January</option>
+
+            <option>Feburary</option>
+
+            <option>March</option>
+
+            <option>April</option>
+
+            <option>May</option>
+
+            <option>June</option>
+
+            <option>July</option>
+
+            <option>August</option>
+
+            <option>September</option>
+
+            <option>October</option>
+
+            <option>November</option>
+
+            <option>December</option>
+
+        </select>
+         
+        <h2 id="tourType">Select Tour Type</h2>
+
+        <label for="destinations"><input id="day" type="radio" name="places">Day Tour</label>
+
+        <label for="destinations"><input id="weekend" type="radio" name="places">Weekend Tour</label>
+
+        <label for="destinations"><input id="week" type="radio" name="places">Week Tour</label>
+
+        <label for="destinations"><input id="month" type="radio" name="places">Month Tour</label>
+
+       
+
+        <h3 id="places">Select place you want to tour</h3>
+
+        <label for="destinations"><input id="tombstone" type="checkbox" name="places">Tombstone</label>
+
+        <label for="destinations"><input id="chiricahua" type="checkbox" name="places">Chiricahua</label>
+
+        <label for="destinations"><input id="colossal" type="checkbox" name="places">Colossal Caves</label>
+
+        <label for="destinations"><input id="grandCanyon" type="checkbox" name="places">Grand Canyon</label>
+         
+        <label for="destinations"><input id="kartchnerCaverns" type="checkbox" name="places">Kartchner Caverns</label>
+        <br>
+        <br>
+        <br>
+    
+        <fieldset id="field">
+          <label for="comments"><input id="comments" type="textarea" placeholder="Type comments here"></label>
+          <button id="button" type="submit">Submit
+            </button>
+          
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>

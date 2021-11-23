@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+/* Body Styling */
+body {
+  font-family:sans-serif;
+  margin: 25px;
+  color: #222;
+  background-image: url(images/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Exercise Title Container Styling */
+.exerciseTrackerTitleContainer{
+  margin-top: 5%;
+  background-color: rgb(74, 205, 238);
+  opacity: 80%;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-weight: bold;
+}
+/* Create User Container Styling */
+.createNewUser{
+  margin: 65px 50px 40px 610px; 
+} 
+/* Add Exercise Container Styling */
+ .addExercise{
+  margin-left: 39.5%;
+} 
+/* Form Styling */
+form {
+  padding: 15px;
+  background-color: rgb(74, 205, 238);
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 15px;
+  border: 2px solid black; 
+  opacity: 80%;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+/* Input Styling */
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+/* Input For Submit Section Styling */
+input[type=submit] {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #E4F1FE;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FFFEC4;
+}
+

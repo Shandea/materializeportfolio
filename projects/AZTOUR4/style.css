@@ -1,0 +1,350 @@
+/* body styling */
+body{
+    background: url(images/AZ.jpg); 
+}
+/* all blue borders */
+.borderBlue{
+    border-style:solid;
+    border-color: darkblue; 
+    border-radius: 50px; 
+    box-shadow: 0px 10px 10px rgb(44, 43, 43);
+}
+/* all yellow borders */
+.borderYellow{
+    border-style: solid;
+    border-color: darkorange; 
+    border-radius: 50px; 
+    box-shadow: 0px 10px 10px rgb(44, 43, 43);
+}
+/* header styling */
+#aztours{
+    margin: 15px 40px 20px 40px; 
+    background: url(images/AZ.jpg);
+    color: darkblue;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    text-shadow: 2px 2px lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+/* search bar styling*/
+#searchbar {
+    position: absolute;
+    right: 178px;
+    top: 43px;
+    text-shadow: 2px 2px lightsteelblue;
+}
+#searchbar:hover{
+    color: blue;
+}
+/* search submit button styling  */
+#searchBtn{
+    border-radius: 5%;
+    margin-left: 5px;
+}
+#searchBtn:hover{ 
+    color:blue;
+    transform: scale(1.1);
+}
+/* nav bar styling */
+#nav{
+    margin: 10px 40px 20px 40px; 
+    background-color: darkblue;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+/* small az image in nav bar styling */
+#smallAzBtn{
+    background-color: rgba(245, 245, 245, 0);
+    width: 125px;
+    height: 80px;
+    border-radius: 45%;
+}
+/* small az image styling */
+#smallerimage1 {
+    width: 90px;
+    height: 50px;
+}
+/* left side facts section styling */
+#left {
+    float:left;
+    height: 25%;
+    width: 45%;
+    margin: 5px 10px 20px 40px;
+    padding: 5px 5px 5px 0px;
+    background: url(images/AZ.jpg);
+    color: darkblue;
+    text-align: center;
+    text-shadow: 2px 2px lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+/* left side article section styling */
+#article{
+    margin: 10px 4px 30px 8px; 
+    background: url(images/AZ.jpg);
+    padding: 25px 10px 10px 10px;
+    text-shadow: 2px 2px lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+#azWelcome{
+    box-shadow: 0px 10px 10px rgb(44, 43, 43);
+}
+/* facts <h1><h2><h3> styling  */
+.facts{
+    font-size: 13px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+} 
+/* attractions section styling */
+#attractions{
+    background: url(images/AZ.jpg);
+    padding: 5px 5px 20px 20px;
+    font-size: 15px;
+} 
+/* link buttons style */
+.linkBtns:hover{
+    color:red;
+}
+.linkBtns{
+    margin-bottom: 2px;
+    border-radius: 15%;
+}
+/* modal content/box styling */
+.modal-content{
+    background-color: rgb(243, 208, 162); 
+    margin-left: 10%; 
+    margin-top: 4%;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 80%; 
+    position: relative;
+    font-size: 15px;
+}
+/* modal header styling */
+.modal-header{
+    background-color: tan;
+    box-shadow: 3px 5px 5px gray;
+    font-size: 20px;
+    color: darkblue;
+}
+/* close button */
+.close{
+    color: darkcyan;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* row display */
+.row{
+    display:flex;
+}
+/* column display */
+.col{
+    flex: 25%;
+    padding: 5px;
+}
+/* modal picture styling */
+.modalPics{
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* right side subscribe section styling */
+#right{
+    float:right;
+    width: 45%;
+    height: 500px;
+    margin: 3px 40px 0px 10px; 
+    background: url(images/AZ.jpg);
+    padding: 55px 0px 20px 0px;
+    text-align: center;
+    text-shadow: 2px 2px lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+ }
+ /* sign up for news letter styling */
+#signUp{
+    padding-bottom: 10px;
+} 
+/* large az image in subscribe section styling */
+.azwelcome{
+    background: url(images/AZ.jpg);
+}
+/* subscribe form boxes and button styling */
+.formBox{
+    border-radius: 5%;
+    padding-left: 5px;
+} 
+/* first name input box */
+#firstName{
+    margin: 10px 0px 10px 0px;
+} 
+/* submit button for subscribe form */
+#submitBtn:hover{ 
+    color:blue;
+    transform: scale(1.1);
+}
+/* footer section styling */
+#footer{
+    clear: both;
+    margin: 20px 40px 20px 40px;   
+    background-color: darkblue;
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+/* media query for ipad styling */
+ @media( max-width:768px) {
+/* body styling */
+body{
+    background: url(images/AZ.jpg);
+}
+/* search bar styling */
+#searchbar {
+    position: absolute;
+    right: 225px;
+    top: 60px;
+} 
+/* header section styling */
+#aztours{
+    margin: 20px 40px 20px 40px; 
+    background:url(images/AZ.jpg);
+    color: darkblue;
+    padding: 5px 0px 35px 0px; 
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+} 
+/* nav bar styling */
+#nav{
+    margin: 20px 40px 20px 40px; 
+    color: darkblue;
+    background-color: darkblue;
+    padding: 10px 0px 10px 0px;  
+    text-align: center;
+}
+/* left side facts section styling */
+#left {
+    float:left;
+    height: 25%;
+    width: 43%;
+    margin: 5px 10px 20px 40px;
+    padding: 5px 5px 5px 0px;
+    background: url(images/AZ.jpg);
+    color: darkblue;
+    text-align: center;
+    text-shadow: 2px 2px lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+/* /* modal styling  */
+.modal-content{
+    width: 80%;
+    height: 80%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+} 
+/* right side subscribe styling section */
+#right {
+    float: right; 
+    margin: 10px 40px 0px 20px; 
+    padding: 20px;
+    height: 580px;
+    width: 40%;
+    color:darkblue;
+}
+/* az image in subscribe section styling */
+#largerimage{
+    height: 150px;
+    width: 150px;
+}
+/* form boxes styling */
+.formBox{
+    padding: 5px;
+} 
+/* last name input box */
+#lastName{
+    margin: 10px 0px 10px 0px;
+} 
+/* email input box */
+#email{
+    margin: 10px 0px 25px 0px;
+} 
+/* footer styling */
+#footer{
+    clear:both;
+    margin:20px 40px 20px 40px;  
+    background-color: darkblue;
+    padding-top:25px; 
+    padding-bottom:25px; 
+    text-align: center;
+    font-family: cursive;
+    color: red;
+}
+}
+/* media query for iphone */
+@media( max-width:320px){
+/* body styling */
+body{
+    background: url(images/AZ.jpg);
+}
+/* header styling */
+#aztours{
+    margin: 10px 10px 10px 10px; 
+    padding: 5px 0px 5px 0px;
+}
+/* search bar styling  */
+#searchbar {
+    position: absolute;
+    left: 20px;
+    top: 185px;
+} 
+/* search text styling */
+#search{
+    position: absolute;
+    left: 8px;
+    top: 33px;
+}
+/* search button styling */
+#searchBtn{
+    position: absolute;
+    left: 200px;
+    top: 33px;
+} 
+/* nav bar styling */
+#nav{
+    margin: 10px 10px 90px 10px;
+    padding: 5px 0px 5px 0px;
+}
+/* left side facts section styling */
+#left {
+    width: 285px;
+    margin-left: 18px;
+}
+/* modal styling  */
+.modal-content{
+    width: 85%;
+    height: 96%; 
+    overflow: auto; /* Enable scroll if needed */
+}   
+/* right side subscribe section styling */
+#right{
+    width: 285px;
+    margin: 0px 18px 5px 0px;
+}
+/* footer styling */
+#footer{
+    clear:both;
+    margin: 100px 10px 20px 10px;  
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+} 
+} 

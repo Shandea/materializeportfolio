@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- import bootstrap full CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <title>DRUM MACHINE</title>
+
+</head>
+
+<body>
+        <!-- display box of drum machine -->
+        <div id="drum-machine">
+                <header id="drum-machine">Drum Machine</header>
+                <div id="display"></div>
+                <!-- coresponding drum buttons with correct letters and sounds-->
+                <button id="btnQ" class="drum-pad" value="Qkey">
+                        <audio class="clip" id="audio1">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Bld_H1.mp3" type="audio/mpeg">
+                        </audio>Q</button>
+
+                <button id="btnW" class="drum-pad" value="Wkey">
+                        <audio class="clip" id="audio2">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Brk_Snr.mp3" type="audio/mpeg">
+                        </audio>W</button>
+
+                <button id="btnE" class="drum-pad" value="Ekey">
+                        <audio class="clip" id="audio3">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Cev_H2.mp3" type="audio/mpeg">
+                        </audio>E</button>
+
+                <button id="btnA" class="drum-pad" value="Akey">
+                        <audio class="clip" id="audio4">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Chord_3.mp3" type="audio/mpeg">
+                        </audio>A</button>
+
+                <button id="btnS" class="drum-pad" value="Skey">
+                        <audio class="clip" id="audio5">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Dry_Ohh.mp3" type="audio/mpeg">
+                        </audio>S</button>
+
+                <button id="btnD" class="drum-pad" value="Dkey">
+                        <audio class="clip" id="audio6">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Give_us_a_light.mp3" type="audio/mpeg">
+                        </audio>D</button>
+
+                <button id="btnZ" class="drum-pad" value="Zkey">
+                        <audio class="clip" id="audio7">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Heater-4_1.mp3" type="audio/mpeg">
+                        </audio>Z</button>
+
+                <button id="btnX" class="drum-pad" value="Xkey">
+                        <audio class="clip" id="audio8">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/Kick_n_Hat.mp3" type="audio/mpeg">
+                        </audio>X</button>
+
+                <button id="btnC" class="drum-pad" value="Ckey">
+                        <audio class="clip" id="audio9">
+                                <source src="/DRUM MACHINE/Drum_Machine_Samples/punchy_kick_1.mp3" type="audio/mpeg">
+                        </audio>C</button>
+        </div>
+
+        <!-- import jquery -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <!-- import bootstrap scripts -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!-- import D3.js -->
+        <script type="text/javascript" src="js/d3.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

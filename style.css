@@ -1,0 +1,12 @@
+/* Nav Bar Styling */
+.nav-wrapper {
+    padding: 0px 15px 0px 15px;
+}
+/* Caption Styling For Caption In Carousel */
+.captionStyle {
+text-shadow: 2px 2px black;
+}
+/* Row margins */
+.sectionStyling{
+    margin-bottom: 15px;
+}

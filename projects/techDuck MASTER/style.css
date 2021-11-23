@@ -1,0 +1,1445 @@
+html {
+    height: 100%;
+    width: 99.9%;
+    background-color: rgb(0, 0, 0);
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+
+
+.bgimg-1 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 30%;
+  background-position-x: 97%;
+  background-position-y: -45%;
+  background-color: black;
+  min-height: 100%;
+  opacity: .8;
+}
+
+
+.bgimg-2 {
+  background-image: url(Images/circuitLinesReverse.png);
+  background-size: 30%;
+  background-position-x: -10%;
+  background-position-y: -50%;
+  background-color: black;
+  min-height: 160px;
+}
+
+
+.bgimg-3 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 30%;
+  background-position-x: 97%;
+  background-position-y: -50%;
+  background-color: black;
+  min-height: 160px;
+}
+
+.bgimg-4 {
+  background-image: url(Images/circuitLinesReverse.png);
+  background-size: 30%;
+  background-position-x: -10%;
+  background-position-y: -52%;
+  background-color: black;
+  min-height: 160px;
+}
+
+.bgimg-5 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 30%;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  color: white;
+  font-family: reem kufi;
+  text-align: left;
+  min-height: 160px;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+        background-attachment: scroll;
+    }
+}
+
+/* Home page with logos */
+
+.techDuck {
+      font-family: "reem kufi", sans-serif;
+      font-size: 100px;
+      color: white;
+      position: absolute;
+      bottom: 10%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      letter-spacing: -15px;
+      word-spacing: 15px;
+      text-shadow: 2px 2px rgb(156, 156, 156);
+  }
+
+#resumeCreatorTitle{
+    font-family: "reem kufi", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    position: absolute;
+      bottom: 22%;
+      left: 71%;
+      transform: translate(-50%, -50%);
+  }
+
+  #techDuckLogo {
+    position: absolute;
+    bottom: -34.5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  /* End of Homepage */
+
+  .wideLetters {letter-spacing: 10px;
+  font-size: 16px;
+padding-left: 8px;}
+
+  /* Nav bar styling */
+  #myNavbar {
+    background-color: rgb(0, 0, 0); 
+    position: fixed; 
+    top: -50px; 
+    width: 100%; 
+    transition: top 0.3s; 
+    z-index: 2;
+    font-family: "reem kufi", sans-serif;
+}
+
+#myNavbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-family: "reem kufi", sans-serif;
+}
+
+#myNavbar a:hover {
+    background-color: rgba(221, 221, 221, 0.692);
+    color: #fff;
+    font-family: "reem kufi", sans-serif;
+}
+
+#navBar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  font-family: "reem kufi", sans-serif;
+}
+
+#navBar a:hover {
+  color: rgb(116, 116, 116);
+  text-decoration: none;
+  padding: 5px;
+  font-family: "reem kufi", sans-serif;
+}
+
+
+
+/* End of navbar styling */
+
+.missionContent{
+  background-color: rgb(21, 156, 156);
+  padding: 15px;
+  font-family: "reem kufi", sans-serif;
+  color: white;
+}
+
+.mission-statement {
+  text-align: center;
+  padding: 15px;
+}
+
+.mission-note {
+  text-indent: 100px;
+  text-align: justify;
+  padding: 0px 20px 0px 20px
+}
+
+.sign {
+  color: rgb(220, 220, 220);
+  float: right;
+  margin-right: 65px;
+}
+
+#quoteArea{
+  color: white;
+  size: 100px;
+  line-height: 35px;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  font-family: reem kufi;
+  transform: translateY(25%);
+}
+/* Grid for form area */
+.createContent {
+  background-color: black;
+  font-family: "reem kufi", sans-serif;
+  display: grid;
+  grid-template-areas:
+  "left-side infoArea infoArea"
+  "left-side advert triangle"
+  "createContent2 advert miniDuckInfo";
+  grid-template-columns: 60% 5% 25%;
+  grid-column-gap: 5%;
+  grid-row-gap: 0%;
+  grid-template-rows: 450px 5% 200px;
+}
+
+.createContent2 {
+  font-family: "reem kufi", sans-serif;
+  grid-area: createContent2;
+}
+
+.infoArea {
+  background-color: rgb(86, 42, 116);
+  color: white;
+  padding: 3%;
+  grid-area: infoArea;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 25px;
+}
+
+.info-tip {
+  font-size: 17px; 
+  }
+  
+  .info-tip-para {
+  font-size: 15px;
+  }
+
+.miniDuckInfo{
+  grid-area: miniDuckInfo;
+  background-image: url(Images/TechDuckMedium.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid rgb(86, 42, 116);
+    transform: skewX(40deg);
+    grid-area: triangle;
+}
+/* End of grid for form area */
+
+/* Grid for resume area */
+.resumeContent {
+  background-color: black;
+  font-family: "reem kufi", sans-serif;
+  display: grid;
+  grid-template-areas:
+  "resumeInfoArea resumeInfoArea right-side"
+  "miniDuckInfo2 triangle2 right-side"
+  "miniDuckInfo2 advert printArea";
+  grid-template-columns: 25% 12% 53%;
+  grid-column-gap: 5%;
+  grid-row-gap: 0%;
+  grid-template-rows: 450px 150px 75px;
+}
+
+.resumeInfoArea {
+  background-color: rgb(21, 156, 156);
+  color: white;
+  padding: 3%;
+  grid-area: resumeInfoArea;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 25px;
+}
+
+.resume-tip {
+  font-size: 17px;
+}
+
+.resume-tip-para {
+  font-size: 15px;
+}
+
+
+.miniDuckInfo2{
+  grid-area: miniDuckInfo2;
+  background-image: url(Images/TechDuckMedium2.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 100%;
+  background-position-y: 20%;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid rgb(21, 156, 156);
+    transform: skewX(-40deg);
+    grid-area: triangle2;
+}
+
+/* End of grid for resume area */
+
+/*print button css*/
+.printContent {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: "reem kufi", sans-serif;
+  height: 10%;
+  width: auto;
+  padding-bottom: 30px;
+  grid-area: printArea;
+}
+
+.printArea{
+background-color: rgba(21, 156, 156, 0);
+font-family: reem kufi;
+text-align: center;
+grid-area: printArea;
+}
+
+.printButton {
+  border-radius: 4px;
+  background-color: rgb(21, 156, 156);
+  border: none;
+  color: #FFFFFF;
+  font-family: reem kufi;
+font-size: 25px;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  height: 60px;
+}
+
+.printButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.printButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.printButton:hover span {
+  padding-right: 25px;
+}
+
+.printButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*end of print button css*/
+
+.topButton {
+  color: white;
+  font-family: "reem kufi", sans-serif;
+}
+
+.borderTitle {
+  border-style: solid;
+  color: white;
+  font-family: "reem kufi", sans-serif;
+}
+
+#titles{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "reem kufi", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.portfolioTitle{
+position: absolute;
+}
+
+/*start of resume form input side css*/
+.resumeCreatorText {
+  position: absolute;
+  text-align: center;
+  line-height: 12px;
+  font-weight: 100;
+  margin-left: 142px;
+  margin-top: 105px; 
+}
+
+#left-side {
+  background-color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 30px;
+  overflow: auto;
+  grid-area: left-side;
+  height: 500px;
+  box-shadow: 5px 5px rgb(160, 160, 160);
+}
+
+label {
+  padding-right: 5px;
+}
+
+#addSkills{
+  display: grid;
+  grid-template-areas:
+  "skillsSection1 skillsSection2";
+  grid-template-columns: 55% 48%;
+  grid-column-gap: 0;
+}
+
+#skillsSection1 {
+  grid-area: skillsSection1;
+}
+
+#skillsSection2 {
+  grid-area: skillsSection2;
+}
+/*end of resume form input side css*/
+
+/*submit button css*/
+.submitArea{
+  background-color: rgba(86, 42, 116, 0);
+  font-family: reem kufi;
+  text-align: center;
+  width: 45%;
+  height: 25%;
+  transform: translate(60%, 150%);
+}
+
+.submitButton {
+  border-radius: 4px;
+  background-color: rgb(86, 42, 116);
+  border: none;
+  color: #FFFFFF;
+  font-family: reem kufi;
+  font-size: 25px;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  height: 60px;
+}
+
+.submitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submitButton:hover span {
+  padding-right: 25px;
+}
+
+.submitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*end of submit button css*/
+
+
+/*start of resume css*/
+#right-side {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  line-height: 14px;
+  height: 575px;
+  overflow: auto;
+  grid-area: right-side;
+}
+
+#personal-info {
+  display: grid;
+  grid-template-areas:
+  "name-info contact-info"
+  "advert contact-info";
+  grid-template-columns: 50% 45%;
+}
+
+#name-info {
+  grid-area: name-info;
+  justify-self: left;
+  line-height: 10px;
+}
+
+#first-name {
+  grid-area: first-name;
+  font-size: 28px;
+}
+
+#last-name {
+  grid-area: last-name;
+  font-size: 28px;
+}
+
+#res-title {
+  grid-area: res-title;
+  font-size: 18px;
+}
+
+#contact-info {
+  grid-area: contact-info;
+  justify-self: right;
+  font-size: 12px;
+  line-height:10px;
+  padding-right: 5%;
+}
+
+#res-summary {
+  font-size: 14px;
+}
+
+#skills-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  font-size: 14px;
+}
+
+#other-skills-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  font-size: 14px;
+}
+
+.school1 {
+  display: grid;
+  grid-template-areas:
+  "school-1 degree-1 area-1 grad-1";
+  grid-template-columns: 30% 20% 20% 25%;
+  font-size: 14px;
+}
+
+#school-1 {
+  grid-area: school-1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#degree-1 {
+  grid-area: degree-1;
+  justify-self: left;
+}
+
+#area-1 {
+  grid-area: area-1;
+  font-style: italic;
+}
+
+#grad-1 {
+  grid-area: grad-1;
+  justify-self: right;
+  font-weight: bold;
+}
+
+.employer1 {
+  display: grid;
+  grid-template-areas:
+  "employer-1 posit-1 dates-1" 
+  "desc-1 desc-1 desc-1";
+  grid-template-columns: 20% 20% 55%;
+  font-size: 14px;
+}
+
+#posit-1 {
+  grid-area: posit-1;
+  justify-self: left;
+}
+
+#dates-1 {
+  grid-area: dates-1;
+  justify-self: right;
+  font-weight: bold;
+}
+
+#desc-1 {
+  grid-area: desc-1;
+}
+
+.employer2 {
+  display: grid;
+  grid-template-areas:
+  "employer-2 posit-2 dates-2" 
+  "desc-2 desc-2 desc-2";
+  grid-template-columns: 20% 20% 55%;
+  font-size: 14px;
+}
+
+#posit-2 {
+  grid-area: posit-2;
+  justify-self: left;
+}
+
+#dates-2 {
+  grid-area: dates-2;
+  justify-self: right;
+  font-weight: bold;
+}
+
+#desc-2 {
+  grid-area: desc-2;
+}
+
+.employer3 {
+  display: grid;
+  grid-template-areas:
+  "employer-3 posit-3 dates-3" 
+  "desc-3 desc-3 desc-3";
+  grid-template-columns: 20% 20% 55%;
+  font-size: 14px;
+}
+
+#posit-3 {
+  grid-area: posit-3;
+  justify-self: left;
+}
+
+#dates-3 {
+  grid-area: dates-3;
+  justify-self: right;
+  font-weight: bold;
+}
+
+#desc-3 {
+  grid-area: desc-3;
+}
+
+#project1 {
+  display: grid;
+  grid-template-areas: 
+"project-1 prodesc-1 prolink-1";
+grid-template-columns: 20% 50% 30%;
+  font-size: 14px;
+}
+
+#project-1, #project-2 {
+  font-weight: 600;
+}
+
+#project2 {
+  display: grid;
+  grid-template-areas: 
+"project-2 prodesc-2 prolink-2";
+grid-template-columns: 20% 50% 30%;
+  font-size: 14px;
+}
+
+/*end of resume css*/
+
+/* Contact Us Area */
+#feedbackArea{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  size: 100px;
+  line-height: 35px;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+  font-family: reem kufi;
+  transform: translateY(10%);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#contact {
+  text-align: center;
+  font-family: "reem kufi", sans-serif;
+  color: white;
+}
+
+input[type=text], select {
+  height: 6%;
+}
+
+input[type=text], select, textarea {
+  width: 60%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: reem kufi;
+}
+
+.contactBtn{
+  background-color: rgb(86, 42, 116);
+  border-style: none;
+  color: white;
+  font-family: reem kufi;
+  font-size: 25px;
+}
+
+.contactBtn {
+  border-radius: 4px;
+  background-color: rgb(86, 42, 116);
+  border: none;
+  color: #FFFFFF;
+  font-family: reem kufi;
+  font-size: 25px;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  height: 60px;
+}
+
+.contactBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.contactBtn span:after {
+  content: url(Images/TechDuckmini.png);
+  position: absolute;
+  opacity: 0;
+  top: 15;
+  right: 35px;
+  transition: 0.5s;
+}
+
+.contactBtn:hover span {
+  padding-right: 40px;
+}
+
+.contactBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* End of Contact Area */
+
+/* FAQ Button */
+
+#faqBtn{
+  position: absolute;
+  bottom: 2px;
+  right: 1%;
+  z-index: 2;
+  font-family: reem kufi;
+  font-size: 18px;
+  width: 36px;
+  background-color: rgba(204, 204, 204, 0.74);
+  color: white;
+  border: none;
+  border-radius: 50px
+}
+
+#faqBtn:hover {background-color:rgb(86, 42, 116)}
+
+#faqBtn:active {
+  background-color: rgb(86, 42, 116);
+  box-shadow: 0 5px rgb(165,165,165);
+  transform: translateY(4px);
+}
+
+/* End of FAQ Button */
+
+/* Start of Modal FAQ */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#faqTitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* End of Modal */
+
+
+/* Collapse */
+
+.collapsible {
+  background-color: rgb(238, 238, 238);
+  margin-bottom: 2px;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: reem kufi;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* End of collapse */
+
+/* Mission Collapse */
+#startText {display: none;}
+
+#missionBtn {
+  background-color: rgba(116, 116, 116, 0);
+  border: none;
+  color: white;
+  font-size: 35px;
+}
+/* End of Mission Collapse */
+
+
+/* Start of media queries for ipad */
+
+@media screen and (max-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bgimg-1 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 50%;
+  background-position-x: 120%;
+  background-position-y: -20%;
+  background-color: black;
+  min-height: 100%;
+}
+
+
+.bgimg-2 {
+  background-image: url(Images/circuitLinesReverse.png);
+  background-size: 50%;
+  background-position-x: -35%;
+  background-position-y: -15%;
+  background-color: black;
+  min-height: 200px;
+}
+
+.bgimg-3 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 50%;
+  background-position-x: 130%;
+  background-position-y: -15%;
+  background-color: black;
+  min-height: 200px;
+}
+
+.bgimg-4 {
+  background-image: url(Images/circuitLinesReverse.png);
+  background-size: 50%;
+  background-position-x: -35%;
+  background-position-y: -15%;
+  background-color: black;
+  min-height: 200px;
+}
+
+.bgimg-5 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 50%;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  color: white;
+  font-family: reem kufi;
+  text-align: left;
+  min-height: 200px;
+}
+
+  .techDuck {
+    font-family: "reem kufi", sans-serif;
+    font-size: 80px;
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 52%;
+    left: 73%;
+    letter-spacing: -8px;
+    word-spacing: 15px;
+    transform: translate(-50%, -50%);
+}
+
+#resumeCreatorTitle{
+  font-family: "reem kufi", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  position: absolute;
+    top: 58%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+#techDuckLogo {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.infoArea {
+  background-color: rgb(86, 42, 116);
+  color: white;
+  padding: 3%;
+  grid-area: infoArea;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 24px;
+}
+
+.info-tip {
+  font-size: 17px; 
+  }
+  
+  .info-tip-para {
+  font-size: 13px;
+  line-height: 13px;
+  }
+
+.resumeInfoArea {
+  background-color: rgb(21, 156, 156);
+  color: white;
+  padding: 3%;
+  grid-area: resumeInfoArea;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 24px;
+}
+
+.resume-tip {
+  font-size: 17px;
+}
+
+.resume-tip-para {
+  font-size: 13px;
+  line-height: 13px;
+}
+
+}
+/* End of media query for ipad */
+
+@media screen and (max-width: 768px) {
+  .techDuck {
+    font-family: "reem kufi", sans-serif;
+    font-size: 70px;
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 52%;
+    left: 73%;
+    letter-spacing: -8px;
+    word-spacing: 15px;
+    transform: translate(-50%, -50%);
+}
+
+  #resumeCreatorTitle{
+    font-family: "reem kufi", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    position: absolute;
+      top: 60%;
+      left: 73%;
+      transform: translate(-50%, -50%);
+  }
+  }
+
+/* Start of Media Queries for cell phones */
+
+@media screen and (max-width: 700px) {
+
+  .techDuck {
+    font-family: "reem kufi", sans-serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 52%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -5px;
+    word-spacing: 15px;
+}
+
+#resumeCreatorTitle{
+  font-family: "reem kufi", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  position: absolute;
+    top: 57%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+#techDuckLogo {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.bgimg-1 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 70%;
+  background-position-x: 150%;
+  background-position-y: -20%;
+  background-color: black;
+  min-height: 500px;
+}
+
+.bgimg-2 {
+  background-image: url(Images/circuitLinesReverse.png);
+  background-size: 70%;
+  background-color: black;
+  min-height: 250px;
+}
+
+.bgimg-3 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 70%;
+  background-color: black;
+  min-height: 200px;
+}
+
+.bgimg-4 {
+  background-image: url(Images/circuitLinesReverse.png);
+  background-size: 70%;
+  background-color: black;
+  min-height: 200px;
+}
+
+.bgimg-5 {
+  background-image: url(Images/circuitLines.png);
+  background-size: 70%;
+  background-position-x: 150%;
+  background-color: black;
+  color: white;
+  font-family: reem kufi;
+  text-align: left;
+}
+
+#myNavbar {
+  background-color: rgb(0, 0, 0); 
+  position: fixed; 
+  top: -50px; 
+  width: 100%; 
+  transition: top 0.3s; 
+  z-index: 2;
+  font-family: "reem kufi", sans-serif;
+  font-size: 12px;
+}
+
+#myNavbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 5px;
+text-decoration: none;
+font-family: "reem kufi", sans-serif;
+font-size: 12px;
+}
+
+#navBar a {
+color: #fff;
+text-decoration: none;
+padding: 5px;
+font-size: 12px;
+font-family: "reem kufi", sans-serif;
+}
+
+#navBar a:hover {
+color: rgb(116, 116, 116);
+text-decoration: none;
+padding: 5px;
+font-family: "reem kufi", sans-serif;
+font-size: 12px;
+}
+
+#myNavbar a:hover {
+  background-color: rgba(221, 221, 221, 0.692);
+  color: #fff;
+  font-family: "reem kufi", sans-serif;
+  font-size: 12px;
+}
+
+.createContent {
+  background-color: black;
+  font-family: "reem kufi", sans-serif;
+  display: grid;
+  grid-template-areas:
+  "infoArea infoArea"
+  "advert triangle"
+  "advert miniDuckInfo"
+  "left-side left-side"
+  "createContent2 createContent2";
+  grid-template-columns: 75% 21%;
+  grid-column-gap: 5%;
+  grid-row-gap: 2%;
+  grid-template-rows: 35% 0% 0% 50% 200px;
+}
+
+#left-side {
+  background-color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5px;
+  height: 400px;
+  overflow: auto;
+  width: auto;
+}
+
+.createContent2 {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: "reem kufi", sans-serif;
+  height: 10%;
+  width: auto;
+  padding-bottom: 30px;
+}
+
+#quoteArea{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  size: 100px;
+  line-height: 35px;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+  font-family: reem kufi;
+  transform: translateY(10%);
+}
+
+.infoArea {
+  background-color: rgb(86, 42, 116);
+  color: white;
+  padding: 3%;
+  grid-area: infoArea;
+  font-size: 16px;
+}
+
+.miniDuckInfo{
+  grid-area: miniDuckInfo;
+  background-image: url(Images/TechDuckMedium.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid rgba(86, 42, 116, 0);
+    transform: skewX(40deg);
+    grid-area: triangle;
+}
+
+/*submit button css*/
+.submitArea{
+  background-color: rgba(86, 42, 116, 0);
+  font-family: reem kufi;
+  text-align: center;
+  width: 45%;
+  height: 25%;
+  transform: translate(50%, -550%);
+  margin-bottom: 50px;
+}
+
+.submitButton {
+  border-radius: 4px;
+  background-color: rgb(86, 42, 116);
+  border: none;
+  color: #FFFFFF;
+  font-family: reem kufi;
+  font-size: 25px;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+.submitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submitButton:hover span {
+  padding-right: 25px;
+}
+
+.submitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*end of submit button css*/
+
+.resumeContent {
+  height: auto;
+  background-color: black;
+  font-family: "reem kufi", sans-serif;
+  display: grid;
+  grid-template-areas:
+  "resumeInfoArea resumeInfoArea"
+  "advert triangle2"
+  "advert miniDuckInfo2"
+  "right-side right-side"
+  "printArea printArea";
+  grid-template-columns: 75% 21%;
+  grid-column-gap: 5%;
+  grid-row-gap: 2%;
+  grid-template-rows: 30% 0% 0% 60% 150px;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid rgba(21, 156, 156, 0);
+  transform: skewX(-40deg);
+  grid-area: triangle2;
+}
+
+#right-side {
+font-family: 'Times New Roman', Times, serif;
+background-color: white;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 5px;
+height: 600px;
+overflow: auto;
+grid-area: right-side;
+}
+
+.resumeInfoArea {
+background-color: rgb(21, 156, 156);
+color: white;
+padding: 3%;
+grid-area: resumeInfoArea;
+font-size: 16px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select{
+  height: 8%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: reem kufi;
+}
+
+input[type=fsubmit] {
+  background-color: rgb(86, 42, 116);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: reem kufi;
+  font-size: 15px;
+}
+
+input[type=fsubmit]:hover {
+  background-color: rgb(21, 156, 156);
+}
+
+}
+
+
+@media screen and (max-width: 414px) {
+  .techDuck {
+    font-family: "reem kufi", sans-serif;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 52%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -5px;
+    word-spacing: 15px;
+}
+
+  #resumeCreatorTitle{
+    font-family: "reem kufi", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    position: absolute;
+      top: 55.5%;
+      left: 73%;
+      transform: translate(-50%, -50%);
+  }
+  }
+
+@media screen and (max-width: 375px) {
+
+  #resumeCreatorTitle{
+    font-family: "reem kufi", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    position: absolute;
+      top: 55.5%;
+      left: 73%;
+      transform: translate(-50%, -50%);
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+
+    #resumeCreatorTitle{
+      font-family: "reem kufi", sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      padding: 15px;
+      position: absolute;
+        top: 57%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+    }
+    }
+    
+    /* End of Media Query */
